@@ -21,23 +21,33 @@ def fourth_column():
     return [t for t in initial_list for j in range(27)]
 
 
-def create_questionnaire_sets(all_combination_list, number_of_partition):
-    questionnaire_set = [[] for k in range(number_of_partition)]
-    number_of_iteration = len(all_combination_list[0]) // number_of_partition
-    index = 0
-    temp = [[a, b, c, d] for a, b, c, d in
-            zip(all_combination_list[0], all_combination_list[1], all_combination_list[2],
-                all_combination_list[3])]
+def create_partition(first_digit, total_combination):
+    return [t for t in total_combination if t[0] == first_digit]
 
-    for i in range(number_of_iteration):
-        for j in range(number_of_partition):
-            if len(temp) == 1:
-                index = 0
-            else:
-                index = random.randint(0, len(temp) - 1)
-            questionnaire_set[j].append(temp[index])
-            temp.pop(index)
-    return questionnaire_set
+
+def create_random_questionsets(total_combinations, num_of_sets):
+    first_partition = create_partition(0, total_combinations)
+    second_partition = create_partition(1, total_combinations)
+    third_partition = create_partition(2, total_combinations)
+    questionnaire_sets = [[] for k in range(num_of_sets)]
+
+    for i in range(num_of_sets):
+        index = random.randint(0, len(first_partition) - 1)
+        questionnaire_sets[i].append(first_partition[index])
+        second_question_index = find_question(second_partition, index, first_partition[index])
+        first_partition.pop(index)
+        questionnaire_sets[i].append(second_partition[second_question_index])
+        third_question_index = find_question(third_partition, second_question_index, second_partition[second_question_index])
+        second_partition.pop(second_question_index)
+        questionnaire_sets[i].append(third_partition[third_question_index])
+    return questionnaire_sets
+
+
+def find_question(list, previous_question_index, previous_question):
+    current_question_index = 0
+    while abs(list[current_question_index][1] - previous_question[1]) + abs(list[current_question_index][2] - previous_question[2]) + abs(list[current_question_index][3] - previous_question[3]) < 2 and current_question_index == previous_question_index:
+        current_question_index = random.randint(0, len(list) - 1)
+    return current_question_index
 
 
 def create_file(questionnaire):
@@ -65,7 +75,7 @@ def create_file(questionnaire):
                 else:
                     toWrite += "Distance from hometown "
 
-            f.writelines(str(j+1)+". "+toWrite + "\n")
+            f.writelines(str(j + 1) + ". " + toWrite + "\n")
         f.close()
 
 
@@ -73,11 +83,14 @@ first_column_list = first_column()
 second_column_list = second_column()
 third_column_list = third_column()
 fourth_column_list = fourth_column()
-questionnaire_set = create_questionnaire_sets(
-    [first_column_list, second_column_list, third_column_list, fourth_column_list], 9)
+
+all_combination = [[a,b,c,d] for a,b,c,d in zip(fourth_column_list, third_column_list, second_column_list, first_column_list)]
+questionnaire_set = create_random_questionsets(all_combination,27)
+
 for i in range(len(questionnaire_set)):
     for j in range(len(questionnaire_set[i])):
-        print(questionnaire_set[i][j])
-    print(len(questionnaire_set[i]))
+        print(questionnaire_set[i][j], end=" ")
     print()
+    print(len(questionnaire_set[i]))
+
 create_file(questionnaire_set)
