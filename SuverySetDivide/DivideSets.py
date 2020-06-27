@@ -1,22 +1,22 @@
 import random
 
 
-def first_column():
+def create_first_column():
     inital_list = [0, 1, 2]
     return [t for k in range(27) for t in inital_list]
 
 
-def second_column():
+def create_second_column():
     initial_list = [0, 1, 2]
     return [t for k in range(9) for t in initial_list for j in range(3)]
 
 
-def third_column():
+def create_third_column():
     initial_list = [0, 1, 2]
     return [t for k in range(3) for t in initial_list for j in range(9)]
 
 
-def fourth_column():
+def create_fourth_column():
     initial_list = [0, 1, 2]
     return [t for t in initial_list for j in range(27)]
 
@@ -26,8 +26,8 @@ def create_partition(first_digit, total_combination):
 
 
 def create_random_questionsets(total_combinations, num_of_sets):
-    num_of_questions = len(total_combinations) / num_of_sets
-    partitions = [[] for k in range(int(num_of_questions))]
+    num_of_questions_per_set = len(total_combinations) / num_of_sets
+    partitions = [[] for k in range(int(num_of_questions_per_set))]
     partitions[0] = create_partition(0, total_combinations)
     partitions[1] = create_partition(1, total_combinations)
     partitions[2] = create_partition(2, total_combinations)
@@ -35,7 +35,7 @@ def create_random_questionsets(total_combinations, num_of_sets):
 
     index = 0
     for i in range(num_of_sets):
-        for j in range(int(num_of_questions)):
+        for j in range(int(num_of_questions_per_set)):
             if j == 0:
                 index = random.randint(0, len(partitions[0]) - 1)
                 questionnaire_sets[i].append(partitions[0][index])
@@ -84,10 +84,10 @@ def create_file(questionnaire):
         f.close()
 
 
-first_column_list = first_column()
-second_column_list = second_column()
-third_column_list = third_column()
-fourth_column_list = fourth_column()
+first_column_list = create_first_column()
+second_column_list = create_second_column()
+third_column_list = create_third_column()
+fourth_column_list = create_fourth_column()
 
 all_combination = [[a,b,c,d] for a,b,c,d in zip(fourth_column_list, third_column_list, second_column_list, first_column_list)]
 questionnaire_set = create_random_questionsets(all_combination,27)
