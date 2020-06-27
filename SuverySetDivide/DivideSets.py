@@ -21,6 +21,10 @@ def create_fourth_column():
     return [t for t in initial_list for j in range(27)]
 
 
+# this function is responsible for the initial partition of the total_combination current_partition_list
+# it will divide the current_partition_list based on the levels of the leftmost variable
+# level 0, 1 and 2 will be partitioned into separate lists
+# this will initially ensure the variation between two consequent question for the leftmost variable
 def create_partition(first_digit, total_combination):
     return [t for t in total_combination if t[0] == first_digit]
 
@@ -48,10 +52,13 @@ def create_random_questionsets(total_combinations, num_of_sets):
     return questionnaire_sets
 
 
-def find_question(list, previous_question_index, previous_question):
+# this method is responsible for making sure that, after the initial variation
+# created by the create_partition( ) method, at least one other variable's level
+# between two questions are varying, creating more variation between two consecutive questions as a whole
+def find_question(current_partition_list, previous_question_index, previous_question):
     current_question_index = 0
-    while abs(list[current_question_index][1] - previous_question[1]) + abs(list[current_question_index][2] - previous_question[2]) + abs(list[current_question_index][3] - previous_question[3]) < 2 and current_question_index == previous_question_index:
-        current_question_index = random.randint(0, len(list) - 1)
+    while abs(current_partition_list[current_question_index][1] - previous_question[1]) + abs(current_partition_list[current_question_index][2] - previous_question[2]) + abs(current_partition_list[current_question_index][3] - previous_question[3]) < 2 and current_question_index == previous_question_index:
+        current_question_index = random.randint(0, len(current_partition_list) - 1)
     return current_question_index
 
 
