@@ -26,20 +26,25 @@ def create_partition(first_digit, total_combination):
 
 
 def create_random_questionsets(total_combinations, num_of_sets):
-    first_partition = create_partition(0, total_combinations)
-    second_partition = create_partition(1, total_combinations)
-    third_partition = create_partition(2, total_combinations)
+    num_of_questions = len(total_combinations) / num_of_sets
+    partitions = [[] for k in range(int(num_of_questions))]
+    partitions[0] = create_partition(0, total_combinations)
+    partitions[1] = create_partition(1, total_combinations)
+    partitions[2] = create_partition(2, total_combinations)
     questionnaire_sets = [[] for k in range(num_of_sets)]
 
+    index = 0
     for i in range(num_of_sets):
-        index = random.randint(0, len(first_partition) - 1)
-        questionnaire_sets[i].append(first_partition[index])
-        second_question_index = find_question(second_partition, index, first_partition[index])
-        first_partition.pop(index)
-        questionnaire_sets[i].append(second_partition[second_question_index])
-        third_question_index = find_question(third_partition, second_question_index, second_partition[second_question_index])
-        second_partition.pop(second_question_index)
-        questionnaire_sets[i].append(third_partition[third_question_index])
+        for j in range(int(num_of_questions)):
+            if j == 0:
+                index = random.randint(0, len(partitions[0]) - 1)
+                questionnaire_sets[i].append(partitions[0][index])
+            else:
+                current_question_index = find_question(partitions[j], index, partitions[j-1][index])
+                partitions[j-1].pop(index)
+                questionnaire_sets[i].append(partitions[j][current_question_index])
+                index = current_question_index
+
     return questionnaire_sets
 
 
