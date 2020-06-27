@@ -57,7 +57,7 @@ def create_random_questionsets(total_combinations, num_of_sets):
 # between two questions are varying, creating more variation between two consecutive questions as a whole
 def find_question(current_partition_list, previous_question_index, previous_question):
     current_question_index = random.randint(0, len(current_partition_list) - 1)
-    while abs(current_partition_list[current_question_index][1] - previous_question[1]) + abs(current_partition_list[current_question_index][2] - previous_question[2]) + abs(current_partition_list[current_question_index][3] - previous_question[3]) < 1:
+    while abs(current_partition_list[current_question_index][1] - previous_question[1]) + abs(current_partition_list[current_question_index][2] - previous_question[2]) + abs(current_partition_list[current_question_index][3] - previous_question[3]) < 3:
         current_question_index = random.randint(0, len(current_partition_list) - 1)
     return current_question_index
 
