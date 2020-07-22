@@ -44,7 +44,11 @@ def create_random_questionsets(total_combinations, num_of_sets):
                 index = random.randint(0, len(partitions[0]) - 1)
                 questionnaire_sets[i].append(partitions[0][index])
             else:
-                current_question_index = find_question(partitions[j], index, partitions[j-1][index])
+                current_question_index = 0
+                if(j!=2):
+                    current_question_index = find_question(partitions[j], questionnaire_sets[i][0], None, False)
+                else:
+                    current_question_index = find_question(partitions[j], questionnaire_sets[i][1], questionnaire_sets[i][0], True)
                 partitions[j-1].pop(index)
                 questionnaire_sets[i].append(partitions[j][current_question_index])
                 index = current_question_index
@@ -55,10 +59,18 @@ def create_random_questionsets(total_combinations, num_of_sets):
 # this method is responsible for making sure that, after the initial variation
 # created by the create_partition( ) method, at least one other variable's level
 # between two questions are varying, creating more variation between two consecutive questions as a whole
-def find_question(current_partition_list, previous_question_index, previous_question):
+def find_question(current_partition_list, previous_question, first_Question, isLastQuestion):
     current_question_index = random.randint(0, len(current_partition_list) - 1)
-    while abs(current_partition_list[current_question_index][1] - previous_question[1]) + abs(current_partition_list[current_question_index][2] - previous_question[2]) + abs(current_partition_list[current_question_index][3] - previous_question[3]) < 3:
-        current_question_index = random.randint(0, len(current_partition_list) - 1)
+    if not isLastQuestion:
+        while abs(current_partition_list[current_question_index][1] - previous_question[1]) + abs(current_partition_list[current_question_index][2] - previous_question[2]) + abs(current_partition_list[current_question_index][3] - previous_question[3]) < 3:
+            current_question_index = random.randint(0, len(current_partition_list) - 1)
+    else:
+        while (abs(current_partition_list[current_question_index][1] - previous_question[1]) + abs(
+                current_partition_list[current_question_index][2] - previous_question[2]) + abs(
+                current_partition_list[current_question_index][3] - previous_question[3]) < 3) and (abs(current_partition_list[current_question_index][1] - first_Question[1]) + abs(
+                current_partition_list[current_question_index][2] - first_Question[2]) + abs(
+                current_partition_list[current_question_index][3] - first_Question[3]) < 4):
+            current_question_index = random.randint(0, len(current_partition_list) - 1)
     return current_question_index
 
 
