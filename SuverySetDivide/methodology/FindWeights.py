@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import HuberRegressor
 from sklearn import metrics
+from sklearn.metrics import r2_score
 
 
 class FindWeight():
@@ -43,7 +44,7 @@ class FindWeight():
         print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))
         print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))
         print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
-
+        print("R2 score is ", r2_score(y_test, y_pred))
 
 fw = FindWeight()
 fw.import_dataset()

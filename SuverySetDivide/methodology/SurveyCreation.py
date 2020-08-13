@@ -111,7 +111,7 @@ def create_gaussian_noise():
 def write_in_csv_file(age, gender, occupation, field_of_education, hometown, marital_staus, spouse_moving_status,
                       spouse_working_status, satisfaction_values, coeff_list):
 
-    filename = "dataset2.csv"
+    filename = "dataset.csv"
     with open(filename, 'a') as csvfile:
         csvwriter = csv.writer(csvfile)
         for i in range(3):
@@ -123,7 +123,7 @@ def write_in_csv_file(age, gender, occupation, field_of_education, hometown, mar
 create_gaussian_noise()
 fields = ["age", "gender", "occupation", "education", "hometown", "marital status", "spouse moving status",
           "spouse employment status", "security", "schooling", "house rent", "distance from HT", "satisfaction"]
-filename = "dataset2.csv"
+filename = "dataset.csv"
 with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(fields)
