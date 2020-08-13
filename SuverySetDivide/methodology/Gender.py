@@ -14,7 +14,4 @@ class Gender():
 
     def satisfaction_function(self, security_level, schooling_level, house_rent_level, distance_from_HT_level):
         satisfaction = self.security_levels_list[security_level] * self.security + self.schooling_levels_list[schooling_level] * self.schooling + self.house_rent_levels_list[house_rent_level] * self.house_rent + self.distance_from_HT_levels_list[distance_from_HT_level] * self.distance_from_HT
-        if (satisfaction - math.floor(satisfaction)) < 0.5:
-            return math.floor(satisfaction)
-        else:
-            return math.ceil(satisfaction)
+        return satisfaction
