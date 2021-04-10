@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="myConnectionString-Web.config Connection String" description="myConnectionString Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:thesisserver.database.windows.net,1433;Initial Catalog=THESIS;Persist Security Info=False;User ID=thesisgroup3812;Password=A1B1B23812!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\USER\\Documents\\AUST\ CSE\ 4\.1\\Undergrad\ Thesis\\Website\\Website\ Final\\Trial\ 1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='myConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

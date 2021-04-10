@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as seabornInstance
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import HuberRegressor
@@ -15,15 +13,15 @@ class FindWeight():
 
     def import_dataset(self):
         self.dataset = pd.read_csv("dataset.csv")
-        self.dataset["age"] = self.dataset["age"].replace(["20 - 25", "26 - 30", "31 - 35", "36 - 40", "41 or above"],
+        self.dataset["AGE_RANGE"] = self.dataset["AGE_RANGE"].replace(["20 - 25", "26 - 30", "31 - 35", "36 - 40", "41 or above"],
                                                           [20, 26, 31, 36, 41])
-        self.dataset["gender"] = self.dataset["gender"].replace(["male", "female", "prefer not to disclose"], [1, 2, 3])
-        self.dataset["occupation"] = self.dataset["occupation"].replace(
+        self.dataset["GENDER"] = self.dataset["GENDER"].replace(["male", "female", "prefer not to disclose"], [1, 2, 3])
+        self.dataset["OCCUPATION"] = self.dataset["OCCUPATION"].replace(
             ["Medical", "Engineering and IT", "Business", "Academia", "Student", "Other"], [1, 2, 3, 4, 5, 6])
-        self.dataset["education"] = self.dataset["education"].replace(
+        self.dataset["FIELD_OF_EDUCATION"] = self.dataset["FIELD_OF_EDUCATION"].replace(
             ["Medical, Biological, Chemical", "Engineering", "Business", "Social", "Science", "Other"],
             [1, 2, 3, 4, 5, 6])
-        self.dataset["marital status"] = self.dataset["marital status"].replace(["Married", "Unmarried"], [1, 2])
+        self.dataset["MARITAL_STATUS"] = self.dataset["MARITAL_STATUS"].replace(["Married", "Unmarried"], [1, 2])
         self.dataset["spouse moving status"] = self.dataset["spouse moving status"].replace(
             ["Yes", "No", "Spouce does not work", "not married"], [1, 2, 3, 4])
         self.dataset["spouse employment status"] = self.dataset["spouse employment status"].replace(

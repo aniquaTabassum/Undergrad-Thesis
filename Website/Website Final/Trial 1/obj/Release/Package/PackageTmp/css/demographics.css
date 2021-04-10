@@ -1,0 +1,16 @@
+﻿body {
+    background-image: url(engineering.jpg);
+    background-size: contain;
+    height: 100%;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    width: 1000px;
+    height: auto;
+    background-color: whitesmoke;
+    opacity: 0.98;
+    box-shadow: 10px 10px 8px 10px #888888
+}

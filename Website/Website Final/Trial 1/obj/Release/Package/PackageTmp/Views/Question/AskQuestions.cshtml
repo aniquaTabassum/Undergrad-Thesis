@@ -1,0 +1,425 @@
+﻿@model Trial_1.Models.Questions
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Scenarios</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>BookDetails</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/newstory.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/readStory.css">
+    <title>WriteStory</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title>Tag</title>
+    <link rel="stylesheet" type="text/css" href="~/css/questions.css">
+    
+    <style>
+        .footercontainer {
+            display: none;
+        }
+
+        #table-padding {
+            margin-left: 180px;
+        }
+
+        .progress {
+            margin-bottom: 0 !important;
+            height: 30px;
+            background-color: #aaa;
+        }
+
+        .step{
+            counter-reset : currentStep;
+        }
+        .step li{
+            list-style-type : none;
+            float : left;
+            width : 33.33%;
+            position : relative;
+            text-align : center;
+        }
+
+        .step li:before{
+
+            content : counter(currentStep);
+            counter-increment : currentStep;
+            width : 30px;
+            height : 30px;
+            line-height : 30px;
+            border : 10px solid #ddd;
+            display : block;
+            text-align : center;
+            margin : 0 auto 10px auto;
+            border-radius : 50%;
+            background-color : #ddd;
+            font-weight : bold;
+            color : transparent;
+        }
+
+        .step li:after{
+            content : '';
+            position : absolute;
+            width : 100%;
+            height : 5px;
+            background-color : #ddd;
+            top : 15px;
+            left : -50%;
+            z-index : -1;
+
+        }
+
+        .step li:first-child:after{
+            content : none;
+        }
+
+        .step li.active-step{
+            color : green;
+        }
+
+        .step li.active-step:before{
+            border-color : green;
+        }
+
+        .step li.active-step + li:after{
+            background-color : green;
+        }
+    </style>
+</head>
+<body>
+    @{ 
+        var check = Model.questionLevel;
+        var progressBarWidth = Model.progressbarMap;
+    }
+    <div>
+        <br />
+        <br />
+        <br />
+        
+        <div class="card">
+
+            <div class="row" style="padding-left:380px;">
+                <p style="font-size:25px; font-weight: bold; text-align:center; padding-top: 50px; text-align : center;"><u>Step 3/3 : Virtual Scenarios </u></p>
+            </div>
+            <div class="row" style="padding-left:30px;">
+                <p id="padding-needed" style="font-size:25px;"> We are giving you three virtual scenario where you will be relocated for your job.For each scenario, please rate your level of satisfaction for each of these scenario </p>
+            </div>
+            @using (Html.BeginForm("AskQuestions", "Question", FormMethod.Post, new { @class = "my_form" }))
+            {
+                <div style="padding-left:30px;">
+                    <p id="padding-needed" style="font-size:20px; font-weight:bold; text-align: center;">1. Consider the following area</p>
+                </div>
+
+
+                <table id="table-padding" style="background-color:rgba(0, 0, 0, 0);">
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Security</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped' style="width : 500px;">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[0]];">
+                                    @check[0]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Schooling</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[1]];">
+                                    @check[1]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Average House Rent</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[2]];">
+                                    @check[2]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px; padding-right:20px;"> Distance from Hometown</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[3]];">
+                                    @check[3]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <table style="background-color:rgba(0, 0, 0, 0);">
+                    <tr style="padding-top: 10px;">
+                        <td style="font-size: 20px; font-family: Raleway-SemiBold; padding-left: 180px; padding-top: 20px; padding-right: 20px;"> How satisfied will you be in this area?</td>
+                        <td></td>
+                        <td style=" padding-top: 20px;">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline1" name="q1Satisfaction" value="1"required>
+                                <label class="custom-control-label" for="defaultInline1">1</label>
+                            </div>
+
+                            <!-- Default inline 2-->
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline2" name="q1Satisfaction" value="2">
+                                <label class="custom-control-label" for="defaultInline2">2</label>
+                            </div>
+
+                            <!-- Default inline 3-->
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline3" name="q1Satisfaction" value="3">
+                                <label class="custom-control-label" for="defaultInline3">3</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline4" name="q1Satisfaction" value="4">
+                                <label class="custom-control-label" for="defaultInline4">4</label>
+                            </div>
+
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline5" name="q1Satisfaction" value="5">
+                                <label class="custom-control-label" for="defaultInline5">5</label>
+                            </div>
+                        </td>
+
+
+                    </tr>
+                </table>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <div style="padding-left:30px;">
+                    <p id="padding-needed" style="font-size:20px; font-weight: bold; text-align:center;">2. Now, Consder This Area</p>
+                </div>
+
+
+                <table id="table-padding" style="background-color:rgba(0, 0, 0, 0);">
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Security</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped' style="width : 500px;">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[4]];">
+                                    @check[4]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Schooling</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[5]];">
+                                    @check[5]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Average House Rent</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[6]];">
+                                    @check[6]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px; padding-right:20px;"> Distance from Hometown</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[7]];">
+                                    @check[7]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <table style="background-color:rgba(0, 0, 0, 0);">
+                    <tr style="padding-top: 10px;">
+                        <td style="font-size: 20px; font-family: Raleway-SemiBold; padding-left: 180px; padding-top: 20px; padding-right: 20px;"> How satisfied will you be in this area?</td>
+                        <td></td>
+                        <td style=" padding-top: 20px;">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline11" name="q2Satisfaction" value="1"required>
+                                <label class="custom-control-label" for="defaultInline11">1</label>
+                            </div>
+
+                            <!-- Default inline 2-->
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline12" name="q2Satisfaction" value="2">
+                                <label class="custom-control-label" for="defaultInline12">2</label>
+                            </div>
+
+                            <!-- Default inline 3-->
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline13" name="q2Satisfaction" value="3">
+                                <label class="custom-control-label" for="defaultInline13">3</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline14" name="q2Satisfaction" value="4">
+                                <label class="custom-control-label" for="defaultInline14">4</label>
+                            </div>
+
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline15" name="q2Satisfaction" value="5">
+                                <label class="custom-control-label" for="defaultInline15">5</label>
+                            </div>
+                        </td>
+
+
+                    </tr>
+                </table>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <div style="padding-left:30px;">
+                    <p id="padding-needed" style="font-size:20px; font-weight : bold; text-align:center">2. Consider One Last Area</p>
+                </div>
+
+
+                <table id="table-padding" style="background-color:rgba(0, 0, 0, 0);">
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Security</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped' style="width : 500px;">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[8]];">
+                                    @check[8]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Schooling</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[9]];">
+                                    @check[9]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;"> Average House Rent</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[10]];">
+                                    @check[10]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px; padding-right:20px;"> Distance from Hometown</td>
+                        <td style="height: 10px; padding-bottom : 10px; padding-top:10px;">
+                            <div class='progress progress-striped'>
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: @progressBarWidth[check[11]];">
+                                    @check[11]
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <table style="background-color:rgba(0, 0, 0, 0);">
+                    <tr style="padding-top: 10px; padding-bottom:10px;">
+                        <td style="font-size: 20px; font-family: Raleway-SemiBold; padding-left: 180px; padding-top: 20px; padding-right: 20px;"> How satisfied will you be in this area?</td>
+                        <td></td>
+                        <td style=" padding-top: 20px;">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline6" name="q3Satisfaction" value="1"required>
+                                <label class="custom-control-label" for="defaultInline6">1</label>
+                            </div>
+
+                            <!-- Default inline 2-->
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline7" name="q3Satisfaction" value="2">
+                                <label class="custom-control-label" for="defaultInline7">2</label>
+                            </div>
+
+                            <!-- Default inline 3-->
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline8" name="q3Satisfaction" value="3">
+                                <label class="custom-control-label" for="defaultInline8">3</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline9" name="q3Satisfaction" value="4">
+                                <label class="custom-control-label" for="defaultInline9">4</label>
+                            </div>
+
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="defaultInline10" name="q3Satisfaction" value="5">
+                                <label class="custom-control-label" for="defaultInline10">5</label>
+                            </div>
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="margin-top:30px;">
+                            <div>
+                                <button type="submit" class="btn btn-primary" style="margin-left: 500px">Submit</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+
+
+                
+
+
+
+            }
+        </div>
+    </div>
+    
+</body>
+</html>
+

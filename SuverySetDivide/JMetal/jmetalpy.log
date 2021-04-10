@@ -1,0 +1,760 @@
+2021-03-18 07:43:10,199 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.0.tsv
+2021-03-18 07:43:10,200 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.0.tsv
+2021-03-18 07:43:22,258 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.0.tsv
+2021-03-18 07:43:22,259 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.0.tsv
+2021-03-18 07:43:31,422 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.0.tsv
+2021-03-18 07:43:31,424 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.0.tsv
+2021-03-18 07:43:43,937 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.0.tsv
+2021-03-18 07:43:43,938 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.0.tsv
+2021-03-18 07:43:56,322 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.0.tsv
+2021-03-18 07:43:56,323 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.0.tsv
+2021-03-18 07:44:05,449 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.0.tsv
+2021-03-18 07:44:05,450 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.0.tsv
+2021-03-18 07:44:17,903 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.0.tsv
+2021-03-18 07:44:17,903 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.0.tsv
+2021-03-18 07:44:30,466 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.0.tsv
+2021-03-18 07:44:30,467 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.0.tsv
+2021-03-18 07:44:36,083 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.0.tsv
+2021-03-18 07:44:36,084 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.0.tsv
+2021-03-18 07:44:48,626 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.1.tsv
+2021-03-18 07:44:48,627 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.1.tsv
+2021-03-18 07:45:00,825 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.1.tsv
+2021-03-18 07:45:00,826 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.1.tsv
+2021-03-18 07:45:10,333 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.1.tsv
+2021-03-18 07:45:10,333 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.1.tsv
+2021-03-18 07:45:22,942 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.1.tsv
+2021-03-18 07:45:22,943 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.1.tsv
+2021-03-18 07:45:35,263 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.1.tsv
+2021-03-18 07:45:35,264 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.1.tsv
+2021-03-18 07:45:43,968 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.1.tsv
+2021-03-18 07:45:43,969 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.1.tsv
+2021-03-18 07:45:56,494 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.1.tsv
+2021-03-18 07:45:56,495 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.1.tsv
+2021-03-18 07:46:08,658 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.1.tsv
+2021-03-18 07:46:08,658 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.1.tsv
+2021-03-18 07:46:14,046 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.1.tsv
+2021-03-18 07:46:14,047 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.1.tsv
+2021-03-18 07:46:26,565 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.2.tsv
+2021-03-18 07:46:26,566 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.2.tsv
+2021-03-18 07:46:38,651 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.2.tsv
+2021-03-18 07:46:38,653 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.2.tsv
+2021-03-18 07:46:46,399 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.2.tsv
+2021-03-18 07:46:46,400 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.2.tsv
+2021-03-18 07:46:58,819 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.2.tsv
+2021-03-18 07:46:58,819 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.2.tsv
+2021-03-18 07:47:11,131 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.2.tsv
+2021-03-18 07:47:11,133 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.2.tsv
+2021-03-18 07:47:20,478 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.2.tsv
+2021-03-18 07:47:20,479 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.2.tsv
+2021-03-18 07:47:32,911 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.2.tsv
+2021-03-18 07:47:32,912 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.2.tsv
+2021-03-18 07:47:45,190 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.2.tsv
+2021-03-18 07:47:45,192 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.2.tsv
+2021-03-18 07:47:50,851 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.2.tsv
+2021-03-18 07:47:50,852 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.2.tsv
+2021-03-18 07:48:03,223 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.3.tsv
+2021-03-18 07:48:03,224 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.3.tsv
+2021-03-18 07:48:15,317 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.3.tsv
+2021-03-18 07:48:15,318 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.3.tsv
+2021-03-18 07:48:24,766 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.3.tsv
+2021-03-18 07:48:24,767 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.3.tsv
+2021-03-18 07:48:37,233 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.3.tsv
+2021-03-18 07:48:37,234 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.3.tsv
+2021-03-18 07:48:49,356 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.3.tsv
+2021-03-18 07:48:49,357 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.3.tsv
+2021-03-18 07:48:58,555 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.3.tsv
+2021-03-18 07:48:58,556 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.3.tsv
+2021-03-18 07:49:10,911 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.3.tsv
+2021-03-18 07:49:10,912 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.3.tsv
+2021-03-18 07:49:23,072 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.3.tsv
+2021-03-18 07:49:23,073 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.3.tsv
+2021-03-18 07:49:28,442 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.3.tsv
+2021-03-18 07:49:28,443 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.3.tsv
+2021-03-18 07:49:40,811 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.4.tsv
+2021-03-18 07:49:40,812 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.4.tsv
+2021-03-18 07:49:52,893 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.4.tsv
+2021-03-18 07:49:52,894 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.4.tsv
+2021-03-18 07:50:02,377 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.4.tsv
+2021-03-18 07:50:02,377 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.4.tsv
+2021-03-18 07:50:14,823 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.4.tsv
+2021-03-18 07:50:14,824 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.4.tsv
+2021-03-18 07:50:26,909 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.4.tsv
+2021-03-18 07:50:26,910 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.4.tsv
+2021-03-18 07:50:35,776 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.4.tsv
+2021-03-18 07:50:35,777 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.4.tsv
+2021-03-18 07:50:48,142 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.4.tsv
+2021-03-18 07:50:48,143 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.4.tsv
+2021-03-18 07:51:00,321 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.4.tsv
+2021-03-18 07:51:00,322 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.4.tsv
+2021-03-18 07:51:05,717 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.4.tsv
+2021-03-18 07:51:05,719 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.4.tsv
+2021-03-18 07:51:18,075 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.5.tsv
+2021-03-18 07:51:18,075 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.5.tsv
+2021-03-18 07:51:30,173 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.5.tsv
+2021-03-18 07:51:30,174 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.5.tsv
+2021-03-18 07:51:38,801 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.5.tsv
+2021-03-18 07:51:38,803 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.5.tsv
+2021-03-18 07:51:51,315 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.5.tsv
+2021-03-18 07:51:51,315 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.5.tsv
+2021-03-18 07:52:04,151 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.5.tsv
+2021-03-18 07:52:04,151 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.5.tsv
+2021-03-18 07:52:13,839 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.5.tsv
+2021-03-18 07:52:13,840 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.5.tsv
+2021-03-18 07:52:26,309 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.5.tsv
+2021-03-18 07:52:26,310 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.5.tsv
+2021-03-18 07:52:38,774 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.5.tsv
+2021-03-18 07:52:38,775 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.5.tsv
+2021-03-18 07:52:44,110 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.5.tsv
+2021-03-18 07:52:44,112 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.5.tsv
+2021-03-18 07:52:56,694 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.6.tsv
+2021-03-18 07:52:56,694 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.6.tsv
+2021-03-18 07:53:08,944 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.6.tsv
+2021-03-18 07:53:08,945 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.6.tsv
+2021-03-18 07:53:18,219 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.6.tsv
+2021-03-18 07:53:18,221 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.6.tsv
+2021-03-18 07:53:31,599 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.6.tsv
+2021-03-18 07:53:31,599 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.6.tsv
+2021-03-18 07:53:43,755 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.6.tsv
+2021-03-18 07:53:43,756 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.6.tsv
+2021-03-18 07:53:53,993 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.6.tsv
+2021-03-18 07:53:53,994 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.6.tsv
+2021-03-18 07:54:06,404 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.6.tsv
+2021-03-18 07:54:06,406 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.6.tsv
+2021-03-18 07:54:18,622 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.6.tsv
+2021-03-18 07:54:18,623 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.6.tsv
+2021-03-18 07:54:24,029 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.6.tsv
+2021-03-18 07:54:24,031 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.6.tsv
+2021-03-18 07:54:36,406 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.7.tsv
+2021-03-18 07:54:36,407 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.7.tsv
+2021-03-18 07:54:48,511 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.7.tsv
+2021-03-18 07:54:48,511 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.7.tsv
+2021-03-18 07:54:57,786 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.7.tsv
+2021-03-18 07:54:57,787 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.7.tsv
+2021-03-18 07:55:10,312 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.7.tsv
+2021-03-18 07:55:10,313 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.7.tsv
+2021-03-18 07:55:23,949 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.7.tsv
+2021-03-18 07:55:23,950 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.7.tsv
+2021-03-18 07:55:32,627 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.7.tsv
+2021-03-18 07:55:32,628 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.7.tsv
+2021-03-18 07:55:45,029 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.7.tsv
+2021-03-18 07:55:45,032 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.7.tsv
+2021-03-18 07:55:57,382 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.7.tsv
+2021-03-18 07:55:57,382 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.7.tsv
+2021-03-18 07:56:02,684 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.7.tsv
+2021-03-18 07:56:02,686 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.7.tsv
+2021-03-18 07:56:15,044 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.8.tsv
+2021-03-18 07:56:15,045 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.8.tsv
+2021-03-18 07:56:27,344 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.8.tsv
+2021-03-18 07:56:27,344 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.8.tsv
+2021-03-18 07:56:36,173 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.8.tsv
+2021-03-18 07:56:36,173 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.8.tsv
+2021-03-18 07:56:48,559 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.8.tsv
+2021-03-18 07:56:48,560 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.8.tsv
+2021-03-18 07:57:00,762 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.8.tsv
+2021-03-18 07:57:00,762 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.8.tsv
+2021-03-18 07:57:10,079 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.8.tsv
+2021-03-18 07:57:10,080 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.8.tsv
+2021-03-18 07:57:23,599 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.8.tsv
+2021-03-18 07:57:23,600 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.8.tsv
+2021-03-18 07:57:35,876 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.8.tsv
+2021-03-18 07:57:35,877 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.8.tsv
+2021-03-18 07:57:41,045 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.8.tsv
+2021-03-18 07:57:41,046 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.8.tsv
+2021-03-18 07:57:53,464 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.9.tsv
+2021-03-18 07:57:53,466 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.9.tsv
+2021-03-18 07:58:05,702 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.9.tsv
+2021-03-18 07:58:05,704 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.9.tsv
+2021-03-18 07:58:15,402 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.9.tsv
+2021-03-18 07:58:15,403 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.9.tsv
+2021-03-18 07:58:28,039 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.9.tsv
+2021-03-18 07:58:28,041 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.9.tsv
+2021-03-18 07:58:40,294 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.9.tsv
+2021-03-18 07:58:40,295 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.9.tsv
+2021-03-18 07:58:50,456 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.9.tsv
+2021-03-18 07:58:50,457 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.9.tsv
+2021-03-18 07:59:02,922 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.9.tsv
+2021-03-18 07:59:02,923 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.9.tsv
+2021-03-18 07:59:15,222 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.9.tsv
+2021-03-18 07:59:15,224 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.9.tsv
+2021-03-18 07:59:20,490 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.9.tsv
+2021-03-18 07:59:20,491 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.9.tsv
+2021-03-18 07:59:32,896 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.10.tsv
+2021-03-18 07:59:32,898 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.10.tsv
+2021-03-18 07:59:45,096 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.10.tsv
+2021-03-18 07:59:45,097 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.10.tsv
+2021-03-18 07:59:55,975 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.10.tsv
+2021-03-18 07:59:55,975 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.10.tsv
+2021-03-18 08:00:08,414 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.10.tsv
+2021-03-18 08:00:08,415 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.10.tsv
+2021-03-18 08:00:20,616 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.10.tsv
+2021-03-18 08:00:20,618 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.10.tsv
+2021-03-18 08:00:30,213 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.10.tsv
+2021-03-18 08:00:30,214 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.10.tsv
+2021-03-18 08:00:42,574 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.10.tsv
+2021-03-18 08:00:42,576 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.10.tsv
+2021-03-18 08:00:54,748 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.10.tsv
+2021-03-18 08:00:54,750 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.10.tsv
+2021-03-18 08:00:59,773 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.10.tsv
+2021-03-18 08:00:59,774 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.10.tsv
+2021-03-18 08:01:12,186 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.11.tsv
+2021-03-18 08:01:12,188 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.11.tsv
+2021-03-18 08:01:24,255 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.11.tsv
+2021-03-18 08:01:24,256 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.11.tsv
+2021-03-18 08:01:33,736 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.11.tsv
+2021-03-18 08:01:33,738 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.11.tsv
+2021-03-18 08:01:46,084 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.11.tsv
+2021-03-18 08:01:46,085 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.11.tsv
+2021-03-18 08:01:58,171 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.11.tsv
+2021-03-18 08:01:58,172 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.11.tsv
+2021-03-18 08:02:07,971 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.11.tsv
+2021-03-18 08:02:07,972 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.11.tsv
+2021-03-18 08:02:20,321 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.11.tsv
+2021-03-18 08:02:20,324 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.11.tsv
+2021-03-18 08:02:32,514 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.11.tsv
+2021-03-18 08:02:32,514 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.11.tsv
+2021-03-18 08:02:39,799 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.11.tsv
+2021-03-18 08:02:39,801 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.11.tsv
+2021-03-18 08:02:52,171 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.12.tsv
+2021-03-18 08:02:52,173 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.12.tsv
+2021-03-18 08:03:04,223 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.12.tsv
+2021-03-18 08:03:04,223 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.12.tsv
+2021-03-18 08:03:13,687 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.12.tsv
+2021-03-18 08:03:13,689 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.12.tsv
+2021-03-18 08:03:26,232 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.12.tsv
+2021-03-18 08:03:26,233 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.12.tsv
+2021-03-18 08:03:38,407 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.12.tsv
+2021-03-18 08:03:38,409 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.12.tsv
+2021-03-18 08:03:47,646 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.12.tsv
+2021-03-18 08:03:47,647 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.12.tsv
+2021-03-18 08:04:00,085 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.12.tsv
+2021-03-18 08:04:00,087 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.12.tsv
+2021-03-18 08:04:12,255 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.12.tsv
+2021-03-18 08:04:12,256 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.12.tsv
+2021-03-18 08:04:17,585 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.12.tsv
+2021-03-18 08:04:17,587 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.12.tsv
+2021-03-18 08:04:29,947 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.13.tsv
+2021-03-18 08:04:29,949 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.13.tsv
+2021-03-18 08:04:42,067 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.13.tsv
+2021-03-18 08:04:42,068 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.13.tsv
+2021-03-18 08:04:50,865 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.13.tsv
+2021-03-18 08:04:50,866 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.13.tsv
+2021-03-18 08:05:03,332 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.13.tsv
+2021-03-18 08:05:03,333 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.13.tsv
+2021-03-18 08:05:15,446 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.13.tsv
+2021-03-18 08:05:15,447 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.13.tsv
+2021-03-18 08:05:23,850 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.13.tsv
+2021-03-18 08:05:23,851 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.13.tsv
+2021-03-18 08:05:36,199 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.13.tsv
+2021-03-18 08:05:36,201 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.13.tsv
+2021-03-18 08:05:48,363 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.13.tsv
+2021-03-18 08:05:48,364 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.13.tsv
+2021-03-18 08:05:55,870 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.13.tsv
+2021-03-18 08:05:55,871 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.13.tsv
+2021-03-18 08:06:08,282 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.14.tsv
+2021-03-18 08:06:08,284 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.14.tsv
+2021-03-18 08:06:20,384 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.14.tsv
+2021-03-18 08:06:20,384 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.14.tsv
+2021-03-18 08:06:29,991 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.14.tsv
+2021-03-18 08:06:29,992 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.14.tsv
+2021-03-18 08:06:42,409 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.14.tsv
+2021-03-18 08:06:42,411 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.14.tsv
+2021-03-18 08:06:54,515 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.14.tsv
+2021-03-18 08:06:54,517 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.14.tsv
+2021-03-18 08:07:03,004 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.14.tsv
+2021-03-18 08:07:03,005 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.14.tsv
+2021-03-18 08:07:15,333 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.14.tsv
+2021-03-18 08:07:15,334 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.14.tsv
+2021-03-18 08:07:27,584 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.14.tsv
+2021-03-18 08:07:27,588 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.14.tsv
+2021-03-18 08:07:33,142 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.14.tsv
+2021-03-18 08:07:33,143 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.14.tsv
+2021-03-18 08:07:45,527 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.15.tsv
+2021-03-18 08:07:45,529 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.15.tsv
+2021-03-18 08:07:57,655 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.15.tsv
+2021-03-18 08:07:57,656 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.15.tsv
+2021-03-18 08:08:06,916 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.15.tsv
+2021-03-18 08:08:06,918 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.15.tsv
+2021-03-18 08:08:19,589 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.15.tsv
+2021-03-18 08:08:19,595 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.15.tsv
+2021-03-18 08:08:31,830 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.15.tsv
+2021-03-18 08:08:31,832 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.15.tsv
+2021-03-18 08:08:40,848 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.15.tsv
+2021-03-18 08:08:40,849 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.15.tsv
+2021-03-18 08:08:53,225 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.15.tsv
+2021-03-18 08:08:53,227 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.15.tsv
+2021-03-18 08:09:05,444 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.15.tsv
+2021-03-18 08:09:05,446 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.15.tsv
+2021-03-18 08:09:10,937 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.15.tsv
+2021-03-18 08:09:10,938 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.15.tsv
+2021-03-18 08:09:23,394 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.16.tsv
+2021-03-18 08:09:23,395 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.16.tsv
+2021-03-18 08:09:35,468 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.16.tsv
+2021-03-18 08:09:35,469 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.16.tsv
+2021-03-18 08:09:47,159 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.16.tsv
+2021-03-18 08:09:47,162 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.16.tsv
+2021-03-18 08:09:59,692 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.16.tsv
+2021-03-18 08:09:59,693 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.16.tsv
+2021-03-18 08:10:11,832 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.16.tsv
+2021-03-18 08:10:11,834 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.16.tsv
+2021-03-18 08:10:21,354 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.16.tsv
+2021-03-18 08:10:21,354 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.16.tsv
+2021-03-18 08:10:33,683 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.16.tsv
+2021-03-18 08:10:33,684 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.16.tsv
+2021-03-18 08:10:45,848 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.16.tsv
+2021-03-18 08:10:45,849 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.16.tsv
+2021-03-18 08:10:51,142 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.16.tsv
+2021-03-18 08:10:51,144 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.16.tsv
+2021-03-18 08:11:03,484 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.17.tsv
+2021-03-18 08:11:03,484 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.17.tsv
+2021-03-18 08:11:15,550 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.17.tsv
+2021-03-18 08:11:15,551 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.17.tsv
+2021-03-18 08:11:24,908 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.17.tsv
+2021-03-18 08:11:24,909 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.17.tsv
+2021-03-18 08:11:37,331 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.17.tsv
+2021-03-18 08:11:37,331 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.17.tsv
+2021-03-18 08:11:49,697 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.17.tsv
+2021-03-18 08:11:49,699 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.17.tsv
+2021-03-18 08:11:58,877 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.17.tsv
+2021-03-18 08:11:58,877 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.17.tsv
+2021-03-18 08:12:11,235 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.17.tsv
+2021-03-18 08:12:11,237 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.17.tsv
+2021-03-18 08:12:23,413 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.17.tsv
+2021-03-18 08:12:23,413 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.17.tsv
+2021-03-18 08:12:28,654 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.17.tsv
+2021-03-18 08:12:28,656 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.17.tsv
+2021-03-18 08:12:40,993 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.18.tsv
+2021-03-18 08:12:40,995 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.18.tsv
+2021-03-18 08:12:53,037 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.18.tsv
+2021-03-18 08:12:53,039 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.18.tsv
+2021-03-18 08:13:01,457 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.18.tsv
+2021-03-18 08:13:01,458 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.18.tsv
+2021-03-18 08:13:13,818 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.18.tsv
+2021-03-18 08:13:13,819 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.18.tsv
+2021-03-18 08:13:25,912 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.18.tsv
+2021-03-18 08:13:25,914 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.18.tsv
+2021-03-18 08:13:35,223 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.18.tsv
+2021-03-18 08:13:35,225 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.18.tsv
+2021-03-18 08:13:47,606 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.18.tsv
+2021-03-18 08:13:47,608 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.18.tsv
+2021-03-18 08:13:59,763 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.18.tsv
+2021-03-18 08:13:59,764 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.18.tsv
+2021-03-18 08:14:08,092 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.18.tsv
+2021-03-18 08:14:08,094 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.18.tsv
+2021-03-18 08:14:20,739 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.19.tsv
+2021-03-18 08:14:20,739 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.19.tsv
+2021-03-18 08:14:32,829 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.19.tsv
+2021-03-18 08:14:32,829 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.19.tsv
+2021-03-18 08:14:41,467 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.19.tsv
+2021-03-18 08:14:41,468 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.19.tsv
+2021-03-18 08:14:53,909 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.19.tsv
+2021-03-18 08:14:53,911 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.19.tsv
+2021-03-18 08:15:06,154 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.19.tsv
+2021-03-18 08:15:06,156 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.19.tsv
+2021-03-18 08:15:15,884 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.19.tsv
+2021-03-18 08:15:15,885 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.19.tsv
+2021-03-18 08:15:28,282 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.19.tsv
+2021-03-18 08:15:28,284 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.19.tsv
+2021-03-18 08:15:40,527 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.19.tsv
+2021-03-18 08:15:40,527 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.19.tsv
+2021-03-18 08:15:45,739 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.19.tsv
+2021-03-18 08:15:45,740 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.19.tsv
+2021-03-18 08:15:58,209 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.20.tsv
+2021-03-18 08:15:58,210 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.20.tsv
+2021-03-18 08:16:10,365 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.20.tsv
+2021-03-18 08:16:10,366 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.20.tsv
+2021-03-18 08:16:20,692 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.20.tsv
+2021-03-18 08:16:20,695 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.20.tsv
+2021-03-18 08:16:33,134 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.20.tsv
+2021-03-18 08:16:33,136 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.20.tsv
+2021-03-18 08:16:45,302 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.20.tsv
+2021-03-18 08:16:45,304 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.20.tsv
+2021-03-18 08:16:54,528 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.20.tsv
+2021-03-18 08:16:54,529 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.20.tsv
+2021-03-18 08:17:07,129 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.20.tsv
+2021-03-18 08:17:07,130 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.20.tsv
+2021-03-18 08:17:19,685 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.20.tsv
+2021-03-18 08:17:19,687 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.20.tsv
+2021-03-18 08:17:25,103 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.20.tsv
+2021-03-18 08:17:25,104 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.20.tsv
+2021-03-18 08:17:37,753 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.21.tsv
+2021-03-18 08:17:37,754 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.21.tsv
+2021-03-18 08:17:50,064 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.21.tsv
+2021-03-18 08:17:50,068 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.21.tsv
+2021-03-18 08:17:59,464 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.21.tsv
+2021-03-18 08:17:59,465 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.21.tsv
+2021-03-18 08:18:11,856 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.21.tsv
+2021-03-18 08:18:11,857 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.21.tsv
+2021-03-18 08:18:23,968 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.21.tsv
+2021-03-18 08:18:23,970 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.21.tsv
+2021-03-18 08:18:33,110 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.21.tsv
+2021-03-18 08:18:33,111 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.21.tsv
+2021-03-18 08:18:45,484 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.21.tsv
+2021-03-18 08:18:45,485 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.21.tsv
+2021-03-18 08:18:57,643 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.21.tsv
+2021-03-18 08:18:57,644 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.21.tsv
+2021-03-18 08:19:02,922 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.21.tsv
+2021-03-18 08:19:02,923 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.21.tsv
+2021-03-18 08:19:15,269 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.22.tsv
+2021-03-18 08:19:15,270 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.22.tsv
+2021-03-18 08:19:32,579 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.22.tsv
+2021-03-18 08:19:32,581 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.22.tsv
+2021-03-18 08:19:42,028 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.22.tsv
+2021-03-18 08:19:42,030 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.22.tsv
+2021-03-18 08:19:54,520 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.22.tsv
+2021-03-18 08:19:54,522 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.22.tsv
+2021-03-18 08:20:06,684 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.22.tsv
+2021-03-18 08:20:06,686 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.22.tsv
+2021-03-18 08:20:15,312 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.22.tsv
+2021-03-18 08:20:15,313 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.22.tsv
+2021-03-18 08:20:27,931 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.22.tsv
+2021-03-18 08:20:27,933 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.22.tsv
+2021-03-18 08:20:40,163 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.22.tsv
+2021-03-18 08:20:40,164 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.22.tsv
+2021-03-18 08:20:45,330 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.22.tsv
+2021-03-18 08:20:45,331 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.22.tsv
+2021-03-18 08:20:57,755 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.23.tsv
+2021-03-18 08:20:57,756 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.23.tsv
+2021-03-18 08:21:09,842 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.23.tsv
+2021-03-18 08:21:09,843 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.23.tsv
+2021-03-18 08:21:18,820 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.23.tsv
+2021-03-18 08:21:18,821 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.23.tsv
+2021-03-18 08:21:31,242 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.23.tsv
+2021-03-18 08:21:31,243 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.23.tsv
+2021-03-18 08:21:43,980 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.23.tsv
+2021-03-18 08:21:43,982 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.23.tsv
+2021-03-18 08:21:53,713 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.23.tsv
+2021-03-18 08:21:53,715 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.23.tsv
+2021-03-18 08:22:06,818 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.23.tsv
+2021-03-18 08:22:06,819 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.23.tsv
+2021-03-18 08:22:19,069 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.23.tsv
+2021-03-18 08:22:19,071 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.23.tsv
+2021-03-18 08:22:24,394 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.23.tsv
+2021-03-18 08:22:24,394 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.23.tsv
+2021-03-18 08:22:37,187 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.24.tsv
+2021-03-18 08:22:37,188 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.24.tsv
+2021-03-18 08:22:49,431 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.24.tsv
+2021-03-18 08:22:49,431 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.24.tsv
+2021-03-18 08:22:58,274 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.24.tsv
+2021-03-18 08:22:58,274 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.24.tsv
+2021-03-18 08:23:10,656 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.24.tsv
+2021-03-18 08:23:10,657 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.24.tsv
+2021-03-18 08:23:22,863 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.24.tsv
+2021-03-18 08:23:22,863 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.24.tsv
+2021-03-18 08:23:32,670 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.24.tsv
+2021-03-18 08:23:32,671 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.24.tsv
+2021-03-18 08:23:45,025 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.24.tsv
+2021-03-18 08:23:45,025 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.24.tsv
+2021-03-18 08:23:57,172 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.24.tsv
+2021-03-18 08:23:57,172 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.24.tsv
+2021-03-18 08:24:02,769 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.24.tsv
+2021-03-18 08:24:02,769 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.24.tsv
+2021-03-18 08:24:15,182 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.25.tsv
+2021-03-18 08:24:15,183 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.25.tsv
+2021-03-18 08:24:27,377 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.25.tsv
+2021-03-18 08:24:27,378 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.25.tsv
+2021-03-18 08:24:36,105 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.25.tsv
+2021-03-18 08:24:36,105 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.25.tsv
+2021-03-18 08:24:48,609 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.25.tsv
+2021-03-18 08:24:48,609 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.25.tsv
+2021-03-18 08:25:00,853 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.25.tsv
+2021-03-18 08:25:00,855 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.25.tsv
+2021-03-18 08:25:10,074 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.25.tsv
+2021-03-18 08:25:10,076 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.25.tsv
+2021-03-18 08:25:35,837 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.25.tsv
+2021-03-18 08:25:35,872 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.25.tsv
+2021-03-18 08:25:58,793 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.25.tsv
+2021-03-18 08:25:58,801 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.25.tsv
+2021-03-18 08:26:04,068 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.25.tsv
+2021-03-18 08:26:04,070 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.25.tsv
+2021-03-18 08:26:16,468 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.26.tsv
+2021-03-18 08:26:16,470 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.26.tsv
+2021-03-18 08:26:28,522 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.26.tsv
+2021-03-18 08:26:28,524 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.26.tsv
+2021-03-18 08:26:37,802 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.26.tsv
+2021-03-18 08:26:37,803 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.26.tsv
+2021-03-18 08:26:50,207 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.26.tsv
+2021-03-18 08:26:50,209 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.26.tsv
+2021-03-18 08:27:02,362 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.26.tsv
+2021-03-18 08:27:02,363 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.26.tsv
+2021-03-18 08:27:11,093 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.26.tsv
+2021-03-18 08:27:11,094 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.26.tsv
+2021-03-18 08:27:23,435 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.26.tsv
+2021-03-18 08:27:23,436 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.26.tsv
+2021-03-18 08:27:35,574 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.26.tsv
+2021-03-18 08:27:35,574 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.26.tsv
+2021-03-18 08:27:40,678 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.26.tsv
+2021-03-18 08:27:40,679 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.26.tsv
+2021-03-18 08:27:53,040 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.27.tsv
+2021-03-18 08:27:53,041 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.27.tsv
+2021-03-18 08:28:05,129 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.27.tsv
+2021-03-18 08:28:05,129 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.27.tsv
+2021-03-18 08:28:13,845 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.27.tsv
+2021-03-18 08:28:13,846 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.27.tsv
+2021-03-18 08:28:26,226 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.27.tsv
+2021-03-18 08:28:26,227 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.27.tsv
+2021-03-18 08:28:38,336 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.27.tsv
+2021-03-18 08:28:38,337 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.27.tsv
+2021-03-18 08:28:47,731 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.27.tsv
+2021-03-18 08:28:47,732 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.27.tsv
+2021-03-18 08:29:00,094 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.27.tsv
+2021-03-18 08:29:00,095 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.27.tsv
+2021-03-18 08:29:12,281 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.27.tsv
+2021-03-18 08:29:12,282 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.27.tsv
+2021-03-18 08:29:17,617 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.27.tsv
+2021-03-18 08:29:17,618 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.27.tsv
+2021-03-18 08:29:29,950 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.28.tsv
+2021-03-18 08:29:29,950 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.28.tsv
+2021-03-18 08:29:42,026 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.28.tsv
+2021-03-18 08:29:42,027 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.28.tsv
+2021-03-18 08:29:51,423 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.28.tsv
+2021-03-18 08:29:51,423 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.28.tsv
+2021-03-18 08:30:03,909 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.28.tsv
+2021-03-18 08:30:03,909 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.28.tsv
+2021-03-18 08:30:16,169 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.28.tsv
+2021-03-18 08:30:16,169 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.28.tsv
+2021-03-18 08:30:25,025 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.28.tsv
+2021-03-18 08:30:25,026 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.28.tsv
+2021-03-18 08:30:37,539 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.28.tsv
+2021-03-18 08:30:37,540 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.28.tsv
+2021-03-18 08:30:49,973 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.28.tsv
+2021-03-18 08:30:49,974 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.28.tsv
+2021-03-18 08:30:55,208 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.28.tsv
+2021-03-18 08:30:55,209 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.28.tsv
+2021-03-18 08:31:07,686 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.29.tsv
+2021-03-18 08:31:07,687 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.29.tsv
+2021-03-18 08:31:19,814 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.29.tsv
+2021-03-18 08:31:19,814 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.29.tsv
+2021-03-18 08:31:28,958 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.29.tsv
+2021-03-18 08:31:28,959 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.29.tsv
+2021-03-18 08:31:41,361 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.29.tsv
+2021-03-18 08:31:41,361 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.29.tsv
+2021-03-18 08:31:53,536 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.29.tsv
+2021-03-18 08:31:53,537 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.29.tsv
+2021-03-18 08:32:02,657 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.29.tsv
+2021-03-18 08:32:02,658 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.29.tsv
+2021-03-18 08:32:15,044 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.29.tsv
+2021-03-18 08:32:15,045 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.29.tsv
+2021-03-18 08:32:27,236 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.29.tsv
+2021-03-18 08:32:27,236 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.29.tsv
+2021-03-18 08:32:32,678 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.29.tsv
+2021-03-18 08:32:32,679 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.29.tsv
+2021-03-18 08:32:54,409 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT1/FUN.30.tsv
+2021-03-18 08:32:54,411 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT1/VAR.30.tsv
+2021-03-18 08:33:06,546 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT1/FUN.30.tsv
+2021-03-18 08:33:06,549 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT1/VAR.30.tsv
+2021-03-18 08:33:15,254 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT1/FUN.30.tsv
+2021-03-18 08:33:15,255 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT1/VAR.30.tsv
+2021-03-18 08:33:27,658 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT2/FUN.30.tsv
+2021-03-18 08:33:27,660 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT2/VAR.30.tsv
+2021-03-18 08:33:39,802 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT2/FUN.30.tsv
+2021-03-18 08:33:39,804 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT2/VAR.30.tsv
+2021-03-18 08:33:49,731 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT2/FUN.30.tsv
+2021-03-18 08:33:49,733 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT2/VAR.30.tsv
+2021-03-18 08:34:02,161 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/ZDT3/FUN.30.tsv
+2021-03-18 08:34:02,164 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/ZDT3/VAR.30.tsv
+2021-03-18 08:34:14,388 [MainThread  ] [INFO ]  Output file (function values): data/GDE3/ZDT3/FUN.30.tsv
+2021-03-18 08:34:14,390 [MainThread  ] [INFO ]  Output file (variables): data/GDE3/ZDT3/VAR.30.tsv
+2021-03-18 08:34:19,700 [MainThread  ] [INFO ]  Output file (function values): data/SMPSO/ZDT3/FUN.30.tsv
+2021-03-18 08:34:19,702 [MainThread  ] [INFO ]  Output file (variables): data/SMPSO/ZDT3/VAR.30.tsv
+2021-03-22 04:17:35,538 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-03-22 04:19:19,109 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-03-23 08:25:01,042 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-03-23 08:25:12,905 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2021-03-23 08:25:12,906 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2021-04-06 15:15:22,386 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-04-06 15:15:34,123 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2021-04-06 15:15:34,127 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2021-04-06 15:17:24,457 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-04-06 15:22:30,707 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-04-06 17:56:23,702 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 17:56:23,703 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 17:59:39,230 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 17:59:39,231 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 18:04:36,987 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 18:04:36,988 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 18:17:07,062 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 18:17:07,063 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 18:17:16,322 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-04-06 18:17:27,759 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2021-04-06 18:17:27,762 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2021-04-06 18:19:47,044 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 18:19:47,046 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 18:20:10,824 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 18:20:10,825 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 18:23:50,579 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 18:23:50,580 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:00:25,702 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:00:25,702 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:05:20,948 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:05:20,950 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:06:29,188 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/DTLZ2.3D.pf
+2021-04-06 19:23:05,587 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:23:05,589 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:44:56,108 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:44:56,109 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:52:51,980 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:52:51,982 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:53:44,746 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:53:44,747 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:54:18,998 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:54:19,000 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 19:58:02,169 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 19:58:02,170 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:01:56,498 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:01:56,499 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:02:22,265 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:02:22,266 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:03:09,210 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:03:09,211 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:10:40,262 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:10:40,264 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:10:59,202 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:10:59,204 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:11:17,554 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:11:17,556 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:12:47,924 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:12:47,926 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:14:01,093 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:14:01,096 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:45:55,186 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:45:55,188 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:49:17,053 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:49:17,054 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:51:13,588 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:51:13,590 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:53:18,867 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:53:18,870 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:54:58,469 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:54:58,471 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:55:16,006 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:55:16,008 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:57:38,646 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:57:38,649 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:58:14,525 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:58:14,527 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:59:19,325 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:59:19,328 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 20:59:48,461 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 20:59:48,462 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:00:11,912 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:00:11,912 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:00:45,886 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:00:45,888 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:02:16,274 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:02:16,276 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:08:09,600 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:08:09,602 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:17:54,423 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:17:54,426 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:19:26,955 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:19:26,958 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:19:53,726 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:19:53,728 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:23:02,911 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:23:02,913 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:23:20,217 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:23:20,219 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:43:33,549 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:43:33,551 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:46:24,311 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:46:24,314 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:48:22,390 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:48:22,393 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:48:30,452 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.sum of 2 numbers
+2021-04-06 21:48:30,454 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.sum of 2 numbers
+2021-04-06 21:49:02,808 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-06 21:49:02,810 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-06 21:49:38,843 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-06 21:49:38,844 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-06 21:50:23,649 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-06 21:50:23,650 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 02:31:47,853 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 02:31:47,856 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 03:18:02,679 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 03:18:02,680 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 03:20:42,494 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 03:20:42,495 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 03:21:09,746 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 03:21:09,747 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 03:30:30,381 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 03:30:30,382 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 10:58:12,683 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 10:58:12,685 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 11:22:23,119 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 11:22:23,122 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 13:23:49,560 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 13:23:49,561 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-07 14:12:22,167 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-07 14:12:22,169 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 03:31:11,850 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 03:31:11,852 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 03:32:55,491 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 03:32:55,492 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 03:33:26,068 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 03:33:26,069 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 03:51:06,800 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 03:51:06,801 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 04:13:07,060 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 04:13:07,062 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 04:14:10,107 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 04:14:10,109 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 04:21:19,540 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 04:21:19,542 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 04:24:59,168 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 04:24:59,171 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 08:44:47,842 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 08:44:47,844 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 08:46:52,634 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 08:46:52,635 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 08:48:21,484 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 08:48:21,486 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 08:51:05,006 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 08:51:05,008 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 09:02:42,867 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 09:02:42,868 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 09:06:13,704 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 09:06:13,705 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 09:12:44,750 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 09:12:44,753 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 09:23:01,327 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 09:23:01,330 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 09:26:11,135 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 09:26:11,137 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 09:39:58,400 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 09:39:58,403 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 14:58:28,621 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 14:58:28,623 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 15:03:58,671 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 15:03:58,673 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 15:17:19,662 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 15:17:19,664 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 15:28:25,771 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 15:28:25,773 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 15:53:38,769 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 15:53:38,773 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-08 16:27:55,274 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-08 16:27:55,287 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-09 02:26:40,747 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.Doctor Allocation
+2021-04-09 02:26:40,750 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.Doctor Allocation
+2021-04-09 17:07:31,072 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 1
+2021-04-09 17:07:31,075 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 1
+2021-04-09 17:26:13,760 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 1
+2021-04-09 17:26:13,763 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 1
+2021-04-09 17:44:54,458 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 1
+2021-04-09 17:44:54,460 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 1
+2021-04-09 17:54:33,630 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 2
+2021-04-09 17:54:33,633 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 2
+2021-04-09 18:09:55,158 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 3
+2021-04-09 18:09:55,160 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 3
+2021-04-09 18:33:32,765 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 4
+2021-04-09 18:33:32,769 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 4
+2021-04-09 18:46:58,902 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 5
+2021-04-09 18:46:58,905 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 5
+2021-04-09 20:19:59,635 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 6
+2021-04-09 20:19:59,639 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 6
+2021-04-09 20:55:46,128 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 7
+2021-04-09 20:55:46,132 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 7
+2021-04-09 21:34:42,598 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 7
+2021-04-09 21:34:42,601 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 7
+2021-04-09 21:57:00,746 [MainThread  ] [INFO ]  Output file (function values): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.NSGAII.Doctor Allocation Trial 8
+2021-04-09 21:57:00,750 [MainThread  ] [INFO ]  Output file (variables): /Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.NSGAII.Doctor Allocation Trial 8

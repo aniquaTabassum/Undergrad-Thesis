@@ -1,0 +1,101 @@
+﻿@model Trial_1.Models.PreferenceDecider
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/newstory.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/readStory.css">
+    <title>WriteStory</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title>Tag</title>
+    <link rel="stylesheet" type="text/css" href="~/css/tag.css">
+    <link rel="stylesheet" type="text/css" href="~/css/InitialStyleSheet.css">
+    <style>
+        .footercontainer {
+            display: none;
+        }
+
+        table, th, td {
+            padding: 20px;
+        }
+
+        body {
+            background-image: url("../../css/b.jpg");
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover;
+        }
+        @@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+            body {
+                background-image: url("../../css/b.jpg");
+                background-repeat: no-repeat;
+                
+                background-position: center;
+                background-size: 5000px;
+            }
+            .mobile-padding{
+                padding-top:500px;
+            }
+}
+
+        .card {
+            /*opacity: .95;*/
+            margin: 0 auto;
+            width: 1000px;
+            height: 600px;
+            background-color: whitesmoke;
+            opacity: 0.98;
+            box-shadow: 10px 10px 8px 10px #888888
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <br />
+        <br />
+        <br />
+        <div class="mobile-padding">
+
+        </div>
+        <div class="card" style="margin-bottom:50px;">
+            <p style="font-size:40px;text-align:center;font-weight: bold; padding-top: 50px;"><u> Job Allocation Survey </u></p>
+            <div class="row">
+
+    
+                <div class="w3-container w3-center w3-animate-opacity w3-animate-fading" style="padding-left:15px; padding-right:15px; 25px;">
+                    <p style="font-size:25px;text-align:center;">Job postings outside of Dhaka are almost never satisfactory. Be a part of the change and help us formulate a model using Mathematical Optimization and Machine Learning that will be able to allocate you to the location outside Dhaka where you will be the happiest.</p>
+                </div>
+                <br />
+                <br />
+                <div class="w3-container w3-center w3-animate-opacity w3-animate-fading" style="padding-bottom:40px;">
+                    <p style="font-size:20px;text-align:center; padding-top: 25px;">The data will only be used for research purposes and will NOT BE SHARED with any third-parties. The survey does not contain any question that can reveal your identity or invade your privacy. Feel free to trust us with your information!</p>
+                </div>
+                <div style="align-content:center; margin-left:35%;margin-bottom:10px;">
+                    <button class="btn btn-success" onclick="location.href ='@Url.Action("Register", "Register")'" style="width:250px;">Start Now!</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

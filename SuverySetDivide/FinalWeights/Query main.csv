@@ -1,0 +1,286 @@
+ID,SET_NUM,GENDER,AGE_RANGE,OCCUPATION,FIELD_OF_EDUCATION,HOMETOWN,MARITAL_STATUS,SPOUSE_WILLING,SPOUSE_OCCUPATION,PREF_RENT,PREF_HOMETOWN,PREF_SCHOOL,PREF_SPOUSE,PREF_SECURITY,ANSWER_1,ANSWER_2,ANSWER_3,datesubmitted
+22,1,Female,20-25,Student,"Medical, Biological or Chemical studies","Narail ",Unmarried,I am not Married,I am not Married,4,2,1,3,5,3,3,4,2020-09-25T07:54:54.7030000
+23,2,Female,20-25,Student,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,5,4,4,5,5,2,3,2,2020-09-25T07:56:31.9030000
+24,2,Male,20-25,Engineering and IT,Engineering and IT,"Mohammadpur, Dhaka",Unmarried,I am not Married,I am not Married,5,4,1,1,4,4,2,4,2020-09-25T07:57:08.9730000
+25,3,Male,26-30,Student,Engineering and IT,"Faridpur, Dhaka",Unmarried,I am not Married,I am not Married,5,1,5,5,5,2,4,5,2020-09-25T08:02:47.4700000
+26,4,Male,20-25,Student,Business Field,"Kaliganj,Lalmonirhat ",Unmarried,I am not Married,I am not Married,4,2,4,5,5,3,2,5,2020-09-25T08:04:33.7330000
+27,5,Female,20-25,Student,"Medical, Biological or Chemical studies",B.baria,Unmarried,I am not Married,I am not Married,3,2,4,4,4,1,4,5,2020-09-25T08:06:56.4230000
+28,5,Male,20-25,Student,Business Field,"Chandpur ",Unmarried,I am not Married,I am not Married,2,2,2,1,2,1,3,4,2020-09-25T08:07:03.9800000
+29,6,Male,26-30,Engineering and IT,Engineering and IT,"Mymensingh ",Married,My Spouse Does Not Work,Other,1,2,5,1,1,5,5,2,2020-09-25T08:18:30.7970000
+30,7,Male,20-25,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,Laksmipur,Unmarried,I am not Married,I am not Married,1,1,5,5,5,3,4,5,2020-09-25T08:22:36.1300000
+31,7,Female,20-25,Student,"Medical, Biological or Chemical studies","Shariatpur ",Unmarried,I am not Married,I am not Married,5,3,4,3,5,1,2,4,2020-09-25T08:22:40.6300000
+32,8,Female,20-25,Student,Business Field,feni,Unmarried,I am not Married,I am not Married,2,1,5,5,5,1,5,2,2020-09-25T08:23:21.6300000
+33,8,Male,20-25,Student,Engineering and IT,Tangail,Unmarried,I am not Married,I am not Married,3,3,5,4,5,1,3,3,2020-09-25T08:24:29.4900000
+34,9,Male,20-25,Student,Engineering and IT,Comilla,Unmarried,I am not Married,I am not Married,4,4,5,5,5,3,4,2,2020-09-25T08:33:37.1000000
+35,10,Male,20-25,Student,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,4,5,1,4,5,1,2,4,2020-09-25T08:39:48.2730000
+36,10,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,4,3,3,4,5,2,3,4,2020-09-25T08:40:06.9770000
+37,11,Female,20-25,Student,Business Field,"Munshiganj ",Unmarried,I am not Married,I am not Married,4,1,3,5,5,2,3,4,2020-09-25T08:42:56.9130000
+38,11,Male,20-25,Engineering and IT,Engineering and IT,Gazipur,Unmarried,I am not Married,I am not Married,5,3,5,5,5,1,3,5,2020-09-25T08:43:14.4630000
+39,11,Male,20-25,Student,Engineering and IT,Chittagong,Unmarried,I am not Married,I am not Married,4,1,4,1,5,1,3,5,2020-09-25T08:43:38.6370000
+40,12,Male,20-25,Student,Business Field,Gazipur,Unmarried,I am not Married,I am not Married,5,3,5,5,5,1,3,5,2020-09-25T08:44:56.4770000
+41,13,Male,20-25,Unemployed,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,2,3,2,2,3,3,1,3,2020-09-25T08:48:39.4930000
+42,14,Male,20-25,Student,Engineering and IT,"Chittagong ",Unmarried,I am not Married,I am not Married,4,3,4,1,4,2,3,4,2020-09-25T08:49:28.3870000
+43,15,Female,20-25,Student,Business Field,"Rajshahi ",Unmarried,I am not Married,I am not Married,5,5,5,5,5,1,4,5,2020-09-25T08:50:27.0330000
+44,15,Female,20-25,Student,"Medical, Biological or Chemical studies",Khulna,Unmarried,I am not Married,I am not Married,5,4,4,2,5,1,3,4,2020-09-25T08:51:29.5900000
+45,16,Female,20-25,Student,Business Field,Feni,Unmarried,I am not Married,I am not Married,3,3,5,3,2,3,5,3,2020-09-25T08:52:08.2770000
+46,17,Male,20-25,Unemployed,Business Field,Shariatpur,Unmarried,I am not Married,I am not Married,4,1,4,4,5,1,3,5,2020-09-25T09:00:29.5600000
+47,18,Male,20-25,Student,Business Field,"Badda, Dhaka",Unmarried,I am not Married,I am not Married,5,5,5,5,5,1,1,5,2020-09-25T09:04:48.9430000
+48,19,Female,26-30,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,Lakhsmipur,Married,No,Engineering and IT,5,5,4,5,5,1,1,5,2020-09-25T09:08:40.3630000
+49,20,Female,20-25,Engineering and IT,Engineering and IT,Khulna,Unmarried,I am not Married,I am not Married,5,2,2,5,5,1,5,4,2020-09-25T09:10:27.8270000
+50,20,Male,26-30,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,4,5,5,4,1,4,5,2020-09-25T09:10:30.3600000
+51,19,Female,20-25,Student,Business Field,"Halishohor, Chattogram",Married,Yes,Engineering and IT,3,3,4,4,4,2,2,3,2020-09-25T09:11:14.7470000
+52,21,Female,20-25,Student,Business Field,Kushtia,Unmarried,I am not Married,I am not Married,5,5,3,5,5,2,2,5,2020-09-25T09:11:16.7800000
+53,22,Male,20-25,Student,Business Field,"Brahmanbaria ",Unmarried,I am not Married,I am not Married,3,3,4,5,5,1,2,3,2020-09-25T09:15:57.3430000
+54,23,Female,20-25,Student,Social Studies,"Brahmanbaria ",Unmarried,I am not Married,I am not Married,3,1,1,5,5,1,4,4,2020-09-25T09:17:06.0830000
+55,24,Male,26-30,"Business Field (Management, HR, Banking, Marketing etc)",Engineering and IT,Tangail,Unmarried,I am not Married,I am not Married,5,3,2,3,5,1,2,5,2020-09-25T09:18:43.1230000
+56,25,Female,20-25,Student,"Medical, Biological or Chemical studies",Barisal,Unmarried,I am not Married,I am not Married,4,5,5,5,5,1,3,3,2020-09-25T09:27:56.7530000
+57,26,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,5,5,5,5,5,2,1,4,2020-09-25T09:30:22.7200000
+58,27,Female,20-25,Student,"Medical, Biological or Chemical studies","Fultala,Bagerhat",Unmarried,I am not Married,I am not Married,3,2,5,5,5,1,2,4,2020-09-25T09:31:34.2270000
+59,1,Female,20-25,Student,"Medical, Biological or Chemical studies","Barishal, Muladi",Unmarried,I am not Married,I am not Married,4,3,5,5,5,3,2,5,2020-09-25T09:35:26.6600000
+60,2,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",Chadpur,Unmarried,I am not Married,I am not Married,3,4,3,3,5,1,3,2,2020-09-25T09:37:01.5970000
+61,3,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",Narail,Unmarried,I am not Married,I am not Married,2,1,1,3,5,1,3,5,2020-09-25T09:45:32.0270000
+62,4,Female,20-25,Student,Business Field,"Brahmanbaria ",Unmarried,I am not Married,I am not Married,3,5,5,5,5,2,4,5,2020-09-25T09:47:13.4430000
+63,5,Female,20-25,Student,Engineering and IT,Shatkhira,Unmarried,I am not Married,I am not Married,5,1,1,1,5,2,2,2,2020-09-25T09:48:35.6800000
+64,5,Male,20-25,Student,Engineering and IT,Dhaka,Married,I am not Married,I am not Married,4,3,3,3,3,4,4,4,2020-09-25T09:48:49.3970000
+65,6,Male,20-25,Student,Engineering and IT,"Jhalakati,Barisal",Unmarried,I am not Married,I am not Married,4,3,1,1,5,1,2,3,2020-09-25T09:52:13.3830000
+66,7,Female,20-25,Student,"Medical, Biological or Chemical studies",Tangail,Unmarried,I am not Married,Student,5,5,5,5,5,1,3,3,2020-09-25T09:55:29.1500000
+67,8,Female,20-25,Student,Other,Dhaka,Unmarried,I am not Married,I am not Married,5,5,3,3,5,1,2,2,2020-09-25T10:02:55.3370000
+68,9,Female,20-25,Student,Engineering and IT,"bogura,bogura",Unmarried,I am not Married,I am not Married,5,4,3,3,5,1,2,4,2020-09-25T10:16:38.6200000
+69,10,Male,20-25,Student,Business Field,Gaibandha,Unmarried,I am not Married,I am not Married,1,1,5,5,5,3,1,5,2020-09-25T10:22:10.1830000
+70,11,Female,20-25,Unemployed,Engineering and IT,Barishal,Unmarried,I am not Married,I am not Married,1,1,1,1,1,3,3,3,2020-09-25T10:24:34.8570000
+71,12,Female,41 or Above,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Social Studies,"Pahartoli, chittagong",Married,My Spouse Does Not Work,Other,2,5,5,4,5,4,4,2,2020-09-25T10:28:12.3100000
+72,12,Male,20-25,Student,Engineering and IT,Chandpur,Unmarried,I am not Married,I am not Married,5,4,5,5,5,3,4,5,2020-09-25T10:28:47.1100000
+73,13,Male,20-25,Student,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,5,1,1,5,5,1,4,4,2020-09-25T10:32:19.7830000
+74,14,Male,26-30,Engineering and IT,Engineering and IT,Jamalpur,Married,I am not Married,I am not Married,4,3,3,5,5,1,4,5,2020-09-25T10:35:46.1730000
+75,15,Male,41 or Above,Other,Other,Bogura,Married,No,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",4,4,2,5,4,2,3,4,2020-09-25T10:38:39.2970000
+76,16,Female,20-25,Engineering and IT,Engineering and IT,"Dhaka ",Unmarried,I am not Married,I am not Married,4,3,3,3,4,4,2,2,2020-09-25T10:44:52.7530000
+77,17,Female,20-25,Student,"Medical, Biological or Chemical studies","Faridpur, Dhaka",Unmarried,I am not Married,I am not Married,5,5,5,5,5,2,3,4,2020-09-25T10:55:55.4900000
+78,18,Male,20-25,Engineering and IT,Engineering and IT,Kishoreganj,Unmarried,I am not Married,I am not Married,4,2,2,4,5,3,1,1,2020-09-25T11:01:03.8670000
+79,19,Female,20-25,Student,Engineering and IT,Laxmipur,Unmarried,I am not Married,I am not Married,5,4,2,5,5,2,3,5,2020-09-25T11:09:03.4570000
+80,20,Female,20-25,Engineering and IT,Engineering and IT,Jessore,Unmarried,I am not Married,I am not Married,4,1,1,1,5,1,4,5,2020-09-25T11:11:07.0530000
+81,21,Male,20-25,Unemployed,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,5,3,4,3,4,3,4,5,2020-09-25T11:19:04.5230000
+82,22,Male,26-30,Unemployed,Engineering and IT,"Shajahanpur, Bogura",Unmarried,I am not Married,I am not Married,5,3,4,5,5,2,3,2,2020-09-25T11:37:51.8830000
+83,23,Female,20-25,Student,Business Field,Barishal,Unmarried,I am not Married,I am not Married,4,3,4,4,5,1,1,3,2020-09-25T12:22:41.0570000
+84,24,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,4,2,5,4,5,1,3,4,2020-09-25T12:29:50.4270000
+85,24,Male,20-25,Student,"Medical, Biological or Chemical studies","Mohammadpur, Dhaka ",Unmarried,I am not Married,I am not Married,5,2,4,4,5,2,4,5,2020-09-25T12:30:04.0070000
+86,25,Female,20-25,Student,"Medical, Biological or Chemical studies","Dhaka ",Unmarried,I am not Married,I am not Married,4,1,5,5,5,2,5,3,2020-09-25T12:34:07.4900000
+87,25,Female,20-25,Student,"Medical, Biological or Chemical studies","Brahmanbaria ",Unmarried,I am not Married,I am not Married,3,1,5,5,5,2,1,5,2020-09-25T12:34:37.0200000
+88,25,Female,20-25,Student,"Medical, Biological or Chemical studies","Brahmanbaria ",Unmarried,I am not Married,I am not Married,3,1,5,5,5,2,1,5,2020-09-25T12:34:37.6730000
+89,26,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,3,3,3,1,4,3,3,3,2020-09-25T12:35:37.4600000
+90,27,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,5,5,5,5,5,1,3,3,2020-09-25T12:42:19.3830000
+91,1,Female,20-25,Student,"Medical, Biological or Chemical studies",B.baria,Unmarried,I am not Married,I am not Married,1,1,5,5,5,2,2,4,2020-09-25T12:48:22.1030000
+92,1,Male,20-25,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,"DHAKA ",Unmarried,I am not Married,I am not Married,2,3,4,4,4,1,2,5,2020-09-25T12:48:49.7070000
+93,2,Female,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,5,5,5,5,2,4,2,2020-09-25T12:54:15.2870000
+94,2,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,4,3,4,1,2,2,4,2,2020-09-25T12:54:15.7600000
+95,3,Female,20-25,Student,Engineering and IT,Comilla,Unmarried,I am not Married,I am not Married,3,1,3,4,5,1,1,5,2020-09-25T12:57:06.0270000
+96,4,Female,20-25,Student,"Medical, Biological or Chemical studies",Chadpur,Unmarried,I am not Married,I am not Married,2,1,3,1,3,1,4,3,2020-09-25T13:31:42.6230000
+97,5,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)",Other,"Choddogram, cumilla",Unmarried,I am not Married,I am not Married,2,5,5,5,5,5,4,1,2020-09-25T13:37:35.2530000
+98,6,Female,20-25,Student,"Medical, Biological or Chemical studies","Chandina, cumilla",Unmarried,I am not Married,I am not Married,3,3,5,3,5,1,3,5,2020-09-25T13:58:09.4130000
+99,6,Female,20-25,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,Sylhet,Unmarried,I am not Married,I am not Married,4,5,4,5,5,1,2,5,2020-09-25T13:58:38.7270000
+100,7,Male,20-25,Student,Engineering and IT,Faridpur,Unmarried,I am not Married,I am not Married,5,1,3,5,5,1,3,5,2020-09-25T13:59:38.9600000
+101,7,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,5,3,5,5,1,5,2,2020-09-25T14:00:11.3830000
+102,8,Female,20-25,Student,Engineering and IT,"Mymensingh ",Unmarried,I am not Married,I am not Married,3,5,3,5,5,1,4,2,2020-09-25T14:00:16.5700000
+103,7,Female,20-25,Student,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,4,5,3,4,5,1,4,3,2020-09-25T14:00:48.4270000
+104,9,Male,20-25,Student,Engineering and IT,"Goila, Barisal",Unmarried,I am not Married,I am not Married,5,3,3,3,5,1,2,4,2020-09-25T14:02:57.0400000
+105,10,Male,20-25,Student,Engineering and IT,"Cumilla Sadar, Cumilla",Unmarried,I am not Married,I am not Married,3,4,5,5,5,1,2,5,2020-09-25T14:09:49.7130000
+106,10,Male,20-25,Student,Engineering and IT,Shariatpur,Unmarried,I am not Married,I am not Married,4,4,4,4,5,2,3,4,2020-09-25T14:10:07.1970000
+107,11,Male,20-25,Student,Engineering and IT,"Tongibari,Munshiganj ",Unmarried,I am not Married,I am not Married,4,3,4,3,5,1,3,4,2020-09-25T14:10:40.6500000
+108,10,Male,20-25,Engineering and IT,Engineering and IT,"Gazipur sadar, Gazipur",Unmarried,I am not Married,I am not Married,3,5,2,1,5,3,5,4,2020-09-25T14:11:01.6670000
+109,11,Male,26-30,Engineering and IT,Engineering and IT,Kishoreganj,Married,No,Student,4,4,5,5,5,3,2,4,2020-09-25T14:11:02.8700000
+110,11,Male,20-25,Student,Engineering and IT,dhaka,Unmarried,I am not Married,I am not Married,3,3,3,3,3,4,2,2,2020-09-25T14:11:46.6970000
+111,12,Male,20-25,Student,Engineering and IT,mymensingh,Unmarried,I am not Married,I am not Married,4,5,3,5,5,1,4,5,2020-09-25T14:14:00.1670000
+112,13,Male,20-25,Unemployed,Engineering and IT,Jamalpur,Unmarried,I am not Married,I am not Married,3,2,3,4,4,1,3,5,2020-09-25T14:17:13.7770000
+113,14,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,1,5,5,5,5,1,3,3,2020-09-25T14:28:50.1900000
+114,15,Male,20-25,Student,Engineering and IT,Naogaon,Unmarried,I am not Married,I am not Married,5,3,4,4,5,2,5,4,2020-09-25T14:36:32.5800000
+115,16,Female,20-25,Student,Engineering and IT,"Dhaka, Bangladesh ",Unmarried,I am not Married,I am not Married,4,3,5,5,5,3,1,4,2020-09-25T14:59:07.7400000
+116,17,Female,20-25,Student,Engineering and IT,Patuakhali,Unmarried,I am not Married,I am not Married,2,1,1,1,5,1,2,5,2020-09-25T15:33:12.2900000
+117,18,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,4,4,4,5,5,3,4,5,2020-09-25T15:53:06.4670000
+118,19,Female,20-25,Student,Business Field,Rajshahi,Unmarried,I am not Married,I am not Married,4,4,4,4,5,2,3,4,2020-09-25T16:05:37.8770000
+119,20,Female,20-25,Student,"Medical, Biological or Chemical studies",Noakhali,Married,Yes,Other,5,5,5,5,5,2,4,5,2020-09-25T18:29:09.7070000
+120,21,Male,26-30,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies","Shariatpur ",Married,Yes,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)",3,1,3,4,5,1,3,5,2020-09-25T18:34:35.1400000
+121,22,Female,20-25,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,"Palong, Shariatpur",Unmarried,I am not Married,I am not Married,3,1,3,5,5,1,5,5,2020-09-25T18:52:58.8170000
+122,23,Male,26-30,Engineering and IT,Engineering and IT,"Uttara, Dhaka",Unmarried,I am not Married,I am not Married,4,3,1,1,4,2,4,5,2020-09-25T21:37:45.4030000
+123,24,Male,20-25,Student,Engineering and IT,"Gopalganj ",Unmarried,I am not Married,I am not Married,4,4,4,5,5,1,2,5,2020-09-25T21:39:46.3000000
+124,25,Male,20-25,Student,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,4,5,5,5,5,2,3,3,2020-09-25T22:22:24.9030000
+125,26,Male,20-25,Student,Engineering and IT,"Companyganj, Noakhali",Unmarried,I am not Married,I am not Married,5,3,2,4,5,2,1,3,2020-09-25T22:28:35.2000000
+126,27,Male,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,No,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)",4,1,3,4,5,2,5,1,2020-09-26T00:05:42.8000000
+127,1,Male,20-25,Student,Engineering and IT,"Sirajgonj ",Unmarried,I am not Married,I am not Married,3,4,3,5,5,1,1,5,2020-09-26T00:19:06.4200000
+128,2,Male,20-25,Student,Engineering and IT,"kendua, Netrokuna",Unmarried,I am not Married,I am not Married,4,2,3,3,3,3,3,3,2020-09-26T02:59:27.8170000
+129,3,Female,20-25,Student,Engineering and IT,"Faridpur ",Married,Yes,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",5,3,5,5,5,3,1,5,2020-09-26T03:32:20.4330000
+130,4,Female,20-25,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,Shariatpur,Married,Yes,Engineering and IT,3,1,2,5,5,1,4,5,2020-09-26T04:00:58.0170000
+131,5,Female,20-25,Student,"Medical, Biological or Chemical studies","Dhaka ",Unmarried,I am not Married,I am not Married,5,3,5,5,5,2,2,5,2020-09-26T04:47:46.9770000
+132,6,Female,36-40,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Business Field,Faridpur,Married,Yes,"Business Field (Management, HR, Banking, Marketing etc)",2,4,5,4,5,1,3,3,2020-09-26T05:29:14.4700000
+133,7,Female,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,5,5,5,5,1,1,5,2020-09-26T05:30:11.5670000
+134,8,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,3,5,5,3,5,2,3,3,2020-09-26T05:34:12.7870000
+135,8,Male,41 or Above,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,"Vatiary, Chittagong",Married,Yes,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",3,4,5,5,5,1,3,3,2020-09-26T05:34:50.9100000
+136,9,Female,31-35,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Social Studies,Dhaka,Married,My Spouse Does Not Work,Unemployed,5,4,4,3,4,3,3,3,2020-09-26T05:52:47.6630000
+137,10,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,3,5,5,1,3,1,2,5,2020-09-26T06:01:10.0400000
+138,11,Male,26-30,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,Dhaka,Married,Yes,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",4,5,3,5,5,3,3,3,2020-09-26T06:34:16.2500000
+139,12,Male,41 or Above,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,Feni,Married,No,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",4,4,2,5,2,4,5,4,2020-09-26T06:54:53.8000000
+140,13,Female,20-25,Student,Engineering and IT,Feni,Unmarried,I am not Married,I am not Married,3,1,3,3,5,1,2,5,2020-09-26T07:09:29.9600000
+141,14,Male,41 or Above,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Social Studies,Chuadanga,Married,Yes,"Business Field (Management, HR, Banking, Marketing etc)",5,3,5,5,5,1,4,5,2020-09-26T07:43:07.2930000
+142,15,Male,20-25,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,"Ramganj, Laxmipur",Unmarried,I am not Married,I am not Married,4,2,2,4,5,2,3,4,2020-09-26T09:06:51.3230000
+143,15,Female,20-25,Student,Business Field,"Dhaka, Dhaka",Unmarried,I am not Married,I am not Married,4,4,2,1,5,2,3,3,2020-09-26T09:07:42.4330000
+144,16,Male,31-35,Other,Business Field," Bogura ",Unmarried,I am not Married,I am not Married,5,3,5,5,5,3,2,5,2020-09-26T09:31:29.2530000
+145,17,Female,31-35,Other,Social Studies,Pabna,Married,Yes,Other,3,2,4,5,3,2,3,3,2020-09-26T09:37:07.6900000
+146,18,Female,20-25,Student,Business Field,Kishoregonj,Unmarried,I am not Married,I am not Married,3,1,5,4,5,2,2,3,2020-09-26T09:54:58.8370000
+147,19,Male,20-25,Student,Engineering and IT,Dhaka city,Unmarried,I am not Married,I am not Married,3,4,4,4,5,2,4,4,2020-09-26T12:50:25.5200000
+148,20,Male,20-25,Unemployed,Engineering and IT,"Kaliakair, Gazipur",Unmarried,I am not Married,I am not Married,5,4,4,3,5,1,2,5,2020-09-26T13:00:45.4900000
+149,21,Female,20-25,Student,Business Field,"Faridpur,Dhaka",Unmarried,I am not Married,I am not Married,3,5,5,5,5,1,1,5,2020-09-26T13:18:02.1500000
+150,22,Female,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,4,3,3,5,1,4,5,2020-09-26T13:52:03.9800000
+151,23,Male,20-25,Student,Engineering and IT,"Manirampur,Jashore",Unmarried,I am not Married,I am not Married,2,3,4,1,2,2,4,1,2020-09-26T14:46:50.9630000
+152,24,Male,20-25,Student,Engineering and IT,CTG,Unmarried,I am not Married,I am not Married,4,3,5,5,3,4,2,4,2020-09-26T14:56:43.4530000
+153,25,Female,36-40,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",Barisal,Married,No,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)",5,3,5,3,5,4,4,5,2020-09-26T16:18:02.3100000
+154,26,Male,20-25,Student,Engineering and IT,"Sirajganj sadar,sirajganj",Unmarried,I am not Married,I am not Married,3,5,4,4,5,3,2,5,2020-09-26T16:48:00.8000000
+155,27,Male,20-25,Engineering and IT,Engineering and IT,Chuadanga,Unmarried,I am not Married,I am not Married,4,5,5,5,5,1,2,1,2020-09-26T16:53:00.0370000
+156,1,Male,20-25,Engineering and IT,Engineering and IT,Chattogram,Unmarried,I am not Married,I am not Married,2,4,1,4,5,3,1,4,2020-09-26T18:23:28.4600000
+157,2,Male,26-30,Engineering and IT,Engineering and IT,Munshigonj,Unmarried,I am not Married,I am not Married,3,3,5,3,5,1,5,1,2020-09-26T18:35:22.0700000
+158,3,Male,20-25,Engineering and IT,Engineering and IT,Narayanganj,Unmarried,I am not Married,I am not Married,3,2,4,5,5,4,5,4,2020-09-26T20:43:31.8600000
+159,4,Female,26-30,Student,"Medical, Biological or Chemical studies","Madaripur ",Unmarried,I am not Married,I am not Married,1,1,1,5,1,5,5,1,2020-09-26T22:05:20.4200000
+160,5,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",feni,Unmarried,I am not Married,I am not Married,5,5,5,1,2,3,3,3,2020-09-26T22:25:36.1070000
+161,6,Female,20-25,Unemployed,Business Field,Dhaka,Unmarried,I am not Married,I am not Married,5,1,5,5,5,1,1,3,2020-09-26T22:30:13.7870000
+162,6,Female,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,5,5,5,5,1,1,3,2020-09-26T22:30:36.3930000
+163,7,Male,20-25,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,"Chouddagra, Cumilla?  ",Unmarried,I am not Married,I am not Married,3,4,3,1,4,5,3,3,2020-09-27T00:42:56.7300000
+164,8,Male,20-25,Student,Engineering and IT,"Chittagong ",Unmarried,I am not Married,I am not Married,2,3,5,5,5,1,4,4,2020-09-27T02:30:41.7670000
+165,9,Male,20-25,Student,Engineering and IT,Rangpur,Unmarried,I am not Married,I am not Married,4,4,3,5,5,2,4,5,2020-09-27T03:08:14.2400000
+166,9,Male,26-30,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,5,1,1,5,2,3,4,2020-09-27T03:08:45.5870000
+167,10,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,2,3,5,5,5,3,4,3,2020-09-27T03:09:25.7100000
+168,10,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,4,3,5,5,5,3,4,5,2020-09-27T03:10:29.7600000
+169,11,Male,20-25,Student,Engineering and IT,"Lalpur, Natore",Unmarried,I am not Married,I am not Married,4,2,3,5,5,1,2,5,2020-09-27T03:12:56.5100000
+170,12,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,4,5,5,5,3,4,5,2020-09-27T03:15:03.1170000
+171,13,Female,20-25,Student,Engineering and IT,"Faridpur Sadar, Faridpur",Unmarried,I am not Married,I am not Married,2,1,1,1,5,1,3,5,2020-09-27T03:25:17.2600000
+172,14,Male,20-25,Student,Engineering and IT,"Mirzapur, Tangail",Unmarried,I am not Married,I am not Married,3,4,3,1,3,3,4,4,2020-09-27T03:32:11.9170000
+173,14,Male,20-25,Student,Engineering and IT,"Shahzadpur, Sirajganj ",Unmarried,I am not Married,I am not Married,5,1,4,3,4,1,4,5,2020-09-27T03:32:24.6370000
+174,15,Female,20-25,Student,"Medical, Biological or Chemical studies","Fulgazi, Feni",Unmarried,I am not Married,I am not Married,3,5,2,5,3,1,2,2,2020-09-27T03:36:03.8100000
+175,15,Male,20-25,Student,Engineering and IT,"Golapganj, Sylhet",Unmarried,I am not Married,I am not Married,5,4,5,5,5,1,4,4,2020-09-27T03:36:14.0900000
+176,16,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,2,4,4,4,5,2,4,5,2020-09-27T03:36:51.0600000
+177,16,Male,20-25,Student,Engineering and IT,"Kumarkhali, Kushtia",Unmarried,I am not Married,I am not Married,3,2,5,5,3,3,3,4,2020-09-27T03:37:26.5130000
+178,17,Male,20-25,Student,Engineering and IT,"Sadar, Mymensingh  ",Unmarried,I am not Married,I am not Married,5,3,3,5,5,1,3,4,2020-09-27T03:37:50.9270000
+179,18,Female,20-25,Student,Engineering and IT,Chittagong,Unmarried,I am not Married,I am not Married,3,2,5,5,5,3,3,4,2020-09-27T03:57:26.1830000
+180,18,Male,20-25,Student,Engineering and IT,"Sadar, Dinajpur",Unmarried,I am not Married,I am not Married,2,2,2,4,2,2,2,2,2020-09-27T03:57:43.1730000
+181,19,Male,20-25,Student,Engineering and IT,Feni,Unmarried,I am not Married,I am not Married,5,3,4,5,5,1,3,4,2020-09-27T04:04:45.3000000
+182,20,Male,20-25,Engineering and IT,Engineering and IT,"Narsingd, Narsingdi  ",Unmarried,I am not Married,I am not Married,4,1,1,1,5,3,4,5,2020-09-27T04:24:40.3500000
+183,21,Male,20-25,Student,Business Field,"Madaripur ",Unmarried,I am not Married,I am not Married,3,3,5,1,5,2,3,4,2020-09-27T04:27:08.4900000
+184,22,Male,20-25,Student,Engineering and IT,Rajshahi,Unmarried,I am not Married,I am not Married,3,4,4,5,5,1,4,3,2020-09-27T04:41:09.3430000
+185,23,Male,20-25,Student,Engineering and IT,"Agrabad, Chittagong",Unmarried,I am not Married,I am not Married,4,4,4,1,3,1,3,3,2020-09-27T04:46:44.8330000
+186,24,Female,20-25,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,2,4,4,4,5,2,3,4,2020-09-27T05:12:56.7930000
+187,25,Male,20-25,Student,Engineering and IT,"Chittagong ",Unmarried,I am not Married,I am not Married,4,4,4,5,5,1,3,4,2020-09-27T05:43:00.9230000
+188,26,Male,20-25,Student,Engineering and IT,Kushtia,Unmarried,I am not Married,I am not Married,3,2,4,4,5,3,2,3,2020-09-27T06:27:35.0130000
+189,27,Female,20-25,Student,"Medical, Biological or Chemical studies",Borishal,Unmarried,I am not Married,I am not Married,2,5,5,5,5,1,3,5,2020-09-27T07:12:09.8930000
+190,1,Male,31-35,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,Dhaka,Unmarried,I am not Married,I am not Married,3,5,5,5,5,2,3,5,2020-09-27T07:43:06.9100000
+191,2,Female,20-25,Student,"Medical, Biological or Chemical studies",Narsingdi,Unmarried,I am not Married,I am not Married,3,5,5,3,5,2,5,3,2020-09-27T08:20:32.3730000
+192,3,Female,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,3,5,5,5,1,1,5,2020-09-27T08:31:54.1300000
+193,4,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,3,1,5,5,1,2,5,2020-09-27T08:45:13.4830000
+194,5,Female,26-30,Student,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,5,5,5,5,5,2,3,4,2020-09-27T09:00:14.6470000
+195,5,Female,20-25,Student,"Medical, Biological or Chemical studies",Sirajgonj,Unmarried,I am not Married,I am not Married,2,3,5,5,5,1,1,5,2020-09-27T09:01:11.9900000
+196,6,Male,20-25,Student,Engineering and IT,"Demra,dhaka",Unmarried,I am not Married,I am not Married,4,5,3,4,5,2,3,5,2020-09-27T09:56:40.2670000
+197,7,Female,20-25,Student,Engineering and IT,Chapai Nababganj,Unmarried,I am not Married,I am not Married,5,3,5,5,5,1,2,5,2020-09-27T12:46:18.0630000
+198,8,Female,26-30,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",Faridpur,Married,No,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)",1,5,5,5,5,2,3,2,2020-09-27T12:49:10.4100000
+199,9,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,5,3,3,5,5,1,3,3,2020-09-27T12:59:54.0070000
+200,10,Male,20-25,Unemployed,Engineering and IT,Barishal,Unmarried,I am not Married,I am not Married,4,3,3,5,5,1,4,3,2020-09-27T13:07:10.1230000
+201,11,Male,26-30,Unemployed,Engineering and IT,Madaripur,Unmarried,I am not Married,I am not Married,4,1,5,5,5,2,3,5,2020-09-27T13:14:13.6070000
+202,12,Male,20-25,Student,Engineering and IT,"Mymensingh ",Unmarried,I am not Married,I am not Married,4,5,3,5,5,3,3,2,2020-09-27T13:15:40.9100000
+203,13,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies","Mymensingh ,Dhaka ",Unmarried,I am not Married,I am not Married,1,2,2,1,1,1,1,5,2020-09-27T13:20:07.5400000
+204,14,Female,20-25,Student,Engineering and IT,Tangail,Unmarried,I am not Married,I am not Married,3,2,5,3,5,2,4,4,2020-09-27T13:25:56.2700000
+205,15,Female,20-25,Student,Engineering and IT,Chittagong,Unmarried,I am not Married,I am not Married,4,5,5,5,5,1,3,3,2020-09-27T13:27:53.4770000
+206,15,Female,20-25,Student,Engineering and IT,Cumilla,Unmarried,I am not Married,I am not Married,4,1,5,5,5,1,4,5,2020-09-27T13:28:34.3570000
+207,16,Male,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,4,3,3,1,2,3,2,4,2020-09-27T13:32:25.8730000
+208,17,Male,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,4,4,4,5,2,3,1,2020-09-27T13:33:48.1170000
+209,17,Male,20-25,Unemployed,Engineering and IT,Sylhet,Unmarried,I am not Married,I am not Married,4,4,4,4,4,5,4,3,2020-09-27T13:33:52.1630000
+210,17,Female,20-25,Student,Engineering and IT,Comilla,Unmarried,I am not Married,I am not Married,4,4,4,4,5,1,2,4,2020-09-27T13:34:09.8300000
+211,18,Male,20-25,Student,Engineering and IT,"Aqua,Mymensingh",Unmarried,I am not Married,I am not Married,3,5,4,1,5,2,1,4,2020-09-27T13:36:11.2200000
+212,19,Male,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,5,5,5,5,2,5,2,2020-09-27T13:54:15.9930000
+213,20,Female,26-30,"Business Field (Management, HR, Banking, Marketing etc)",Social Studies,Comilla,Married,Yes,"Business Field (Management, HR, Banking, Marketing etc)",4,4,4,4,5,1,3,4,2020-09-27T13:54:31.2600000
+214,21,Male,20-25,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,"Jiban Nagar, Chuadanga",Unmarried,I am not Married,I am not Married,2,4,2,2,5,1,4,3,2020-09-27T14:16:26.2970000
+215,22,Female,26-30,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,5,5,4,5,5,1,3,4,2020-09-27T14:24:59.4800000
+216,23,Male,20-25,Engineering and IT,Engineering and IT,Tangail,Unmarried,I am not Married,I am not Married,5,5,5,5,5,1,4,2,2020-09-27T14:30:08.1600000
+217,24,Female,20-25,Student,"Medical, Biological or Chemical studies","Patuakhal, Barishal ",Unmarried,I am not Married,I am not Married,2,3,4,5,5,1,2,4,2020-09-27T14:53:14.5230000
+218,25,Male,20-25,Student,Engineering and IT,"Madaripur ",Unmarried,I am not Married,I am not Married,3,2,2,3,3,3,4,5,2020-09-27T15:18:44.7700000
+219,26,Male,20-25,Unemployed,Engineering and IT,Chittagong,Unmarried,I am not Married,I am not Married,5,2,1,1,5,2,2,5,2020-09-27T15:33:46.5430000
+220,27,Male,26-30,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,Dhaka,Married,Yes,Other,2,4,4,5,5,1,3,2,2020-09-27T15:53:11.7500000
+221,1,Male,20-25,Student,Engineering and IT,"Jessore Sadar,Jessore",Unmarried,I am not Married,I am not Married,3,1,4,5,5,1,2,5,2020-09-27T15:58:22.8300000
+222,2,Male,20-25,Student,Engineering and IT,"Hakimpur, Dinajpur",Unmarried,I am not Married,I am not Married,2,5,5,5,5,1,3,2,2020-09-27T16:16:03.6770000
+223,3,Female,26-30,Engineering and IT,Engineering and IT,Tangail,Unmarried,I am not Married,I am not Married,4,3,4,4,5,3,2,3,2020-09-27T16:51:38.7930000
+224,4,Male,20-25,Student,Engineering and IT,Rajbari,Unmarried,I am not Married,I am not Married,4,3,4,5,5,1,3,1,2020-09-27T16:55:47.1500000
+225,5,Male,20-25,Student,Social Studies,Barishal,Unmarried,My Spouse Does Not Work,Student,3,3,4,2,5,1,3,5,2020-09-27T17:01:41.7800000
+226,6,Male,20-25,Student,Engineering and IT,"Bhuapur, Tangail;",Unmarried,I am not Married,I am not Married,4,2,5,5,5,1,3,3,2020-09-27T18:58:00.4870000
+227,7,Male,20-25,Student,Engineering and IT,"Feni Sadar, Feni",Married,I am not Married,I am not Married,4,2,5,5,5,1,3,4,2020-09-27T20:40:10.7230000
+228,8,Male,20-25,Student,Engineering and IT,????,Unmarried,I am not Married,I am not Married,2,5,5,3,5,1,4,2,2020-09-27T23:21:19.3600000
+229,9,Male,20-25,Student,Engineering and IT,Patuakhali,Unmarried,I am not Married,I am not Married,5,1,5,5,5,1,4,4,2020-09-28T03:22:30.5530000
+230,10,Male,26-30,Engineering and IT,Engineering and IT,Chandpur,Married,No,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)",3,1,4,5,5,2,4,5,2020-09-28T04:55:25.6970000
+231,11,Male,36-40,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Business Field,Dhaka,Unmarried,I am not Married,I am not Married,5,4,5,3,4,5,3,3,2020-09-28T06:45:01.6670000
+232,12,Male,20-25,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,Gopalganj,Unmarried,I am not Married,I am not Married,5,4,4,4,5,3,4,5,2020-09-28T07:24:26.0800000
+233,13,Female,26-30,Engineering and IT,Engineering and IT,"Bhuapur, Tangail",Unmarried,I am not Married,I am not Married,2,3,4,5,5,1,2,5,2020-09-28T08:07:04.7770000
+234,14,Male,31-35,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Other,"Sirajganj ",Unmarried,I am not Married,I am not Married,4,1,5,1,4,3,4,3,2020-09-28T08:17:30.0600000
+235,15,Male,26-30,"Business Field (Management, HR, Banking, Marketing etc)",Engineering and IT,Dhaka,Married,My Spouse Does Not Work,Other,5,4,5,5,5,1,3,5,2020-09-28T08:19:17.5100000
+236,16,Female,41 or Above,Unemployed,Business Field,"Kaulajani, Tangail",Married,No,"Business Field (Management, HR, Banking, Marketing etc)",4,2,2,5,5,1,5,2,2020-09-28T08:22:23.6370000
+237,17,Female,20-25,Student,Engineering and IT,"Kaligonj, Sathkhira",Unmarried,I am not Married,I am not Married,5,1,4,5,5,1,3,3,2020-09-28T08:42:14.5770000
+238,18,Female,20-25,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)","Medical, Biological or Chemical studies",Gazipur,Unmarried,I am not Married,I am not Married,3,3,5,3,5,4,3,4,2020-09-28T09:53:27.6830000
+239,19,Male,26-30,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,"Dhaka, Dhaka",Married,Yes,Engineering and IT,3,3,5,5,5,1,4,3,2020-09-28T11:38:15.6100000
+240,20,Male,20-25,Student,Engineering and IT,,Unmarried,I am not Married,I am not Married,3,3,5,5,5,1,3,4,2020-09-28T13:48:37.1570000
+241,20,Male,26-30,Engineering and IT,Engineering and IT,Noagoan,Unmarried,I am not Married,I am not Married,3,5,3,4,5,1,2,4,2020-09-28T13:49:15.7600000
+242,21,Male,26-30,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,3,3,5,5,3,4,3,2020-09-28T14:13:39.4500000
+243,22,Male,26-30,Engineering and IT,Engineering and IT,"Bera, Pabna",Unmarried,No,I am not Married,3,5,4,5,3,4,3,3,2020-09-28T14:15:45.4030000
+244,22,Male,31-35,Engineering and IT,Engineering and IT,Brahambaria,Married,My Spouse Does Not Work,Unemployed,4,3,4,4,4,1,4,2,2020-09-28T14:15:51.3530000
+245,23,Male,26-30,Engineering and IT,Engineering and IT,Sylhet,Unmarried,I am not Married,I am not Married,3,2,3,4,4,2,3,3,2020-09-28T14:26:08.1370000
+246,24,Male,26-30,Engineering and IT,Engineering and IT,Manikgonj,Unmarried,I am not Married,I am not Married,2,5,4,5,5,1,3,5,2020-09-28T15:14:52.3030000
+247,25,Female,20-25,Student,Social Studies,Manikgonj,Unmarried,I am not Married,I am not Married,5,4,5,4,5,1,3,4,2020-09-28T16:46:24.3370000
+248,26,Male,20-25,Other,Social Studies,Jamalpur,Unmarried,I am not Married,I am not Married,4,2,4,3,3,3,3,3,2020-09-28T16:48:12.4600000
+249,27,Male,20-25,Student,Engineering and IT,"Shibchar, Madaripur ",Unmarried,I am not Married,I am not Married,4,1,4,5,5,1,2,3,2020-09-28T16:57:39.0200000
+250,1,Male,20-25,Engineering and IT,Engineering and IT,Naogaon,Unmarried,I am not Married,I am not Married,3,2,3,5,4,5,3,5,2020-09-28T17:15:18.8130000
+251,2,Male,20-25,Engineering and IT,Engineering and IT,Madaripur,Unmarried,I am not Married,I am not Married,5,1,2,4,4,1,5,5,2020-09-28T17:25:03.0630000
+252,3,Male,20-25,Student,Engineering and IT,Shariatpur,Unmarried,I am not Married,I am not Married,4,2,4,4,5,3,1,5,2020-09-28T17:45:51.3500000
+253,4,Male,20-25,Student,Engineering and IT,RANGPUR,Unmarried,I am not Married,Other,4,4,3,3,3,4,5,3,2020-09-28T18:35:10.2130000
+254,5,Female,26-30,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,Rajshahi,Married,Yes,"Business Field (Management, HR, Banking, Marketing etc)",2,4,4,5,5,2,3,4,2020-09-28T21:42:47.4530000
+255,6,Male,20-25,Unemployed,Engineering and IT,"Narsingdi ",Unmarried,I am not Married,I am not Married,4,5,3,5,5,1,3,2,2020-09-28T22:36:51.7300000
+256,7,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,3,3,3,5,2,3,5,2020-09-29T04:14:49.2100000
+257,8,Male,36-40,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Other,"Narayanganj ",Married,My Spouse Does Not Work,Unemployed,5,3,5,5,5,1,3,4,2020-09-29T05:57:41.8230000
+258,9,Male,20-25,Engineering and IT,Engineering and IT,Eatpitha,Unmarried,I am not Married,I am not Married,1,5,1,1,4,5,1,1,2020-09-29T06:06:57.0900000
+259,10,Male,20-25,Student,Engineering and IT,"Parbatipur,Dinajpur",Unmarried,I am not Married,I am not Married,4,4,3,4,5,2,3,5,2020-09-29T06:58:50.3600000
+260,11,Female,20-25,Unemployed,Social Studies,"Mirpur, Dhaka",Unmarried,I am not Married,I am not Married,4,3,5,5,5,1,1,4,2020-09-29T07:08:19.7270000
+261,12,Female,20-25,Student,Social Studies,"Bagerhat ",Unmarried,I am not Married,I am not Married,5,1,4,4,5,2,3,5,2020-09-29T07:13:16.4900000
+262,13,Male,26-30,Student,Business Field,"Nabinagar, Brahmanbaria ",Unmarried,I am not Married,I am not Married,4,5,5,5,5,2,1,4,2020-09-29T07:21:17.0870000
+263,14,Male,26-30,Other,Social Studies,Dhaka,Unmarried,I am not Married,I am not Married,5,4,4,5,5,1,4,4,2020-09-29T07:28:17.6170000
+264,15,Female,20-25,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)","Medical, Biological or Chemical studies","Uzirpur,barisal",Unmarried,I am not Married,I am not Married,3,3,5,5,5,1,5,4,2020-09-29T11:56:34.4200000
+265,16,Male,20-25,Unemployed,Social Studies,Brahmanbaria,Unmarried,I am not Married,I am not Married,5,4,5,1,5,1,2,4,2020-09-29T12:11:28.7330000
+266,17,Male,26-30,Other,Engineering and IT,"Brahmanbaria ",Unmarried,I am not Married,I am not Married,5,3,5,5,4,2,3,3,2020-09-29T12:13:26.0970000
+267,18,Male,26-30,Other,"Medical, Biological or Chemical studies",Dhaka,Unmarried,I am not Married,I am not Married,4,5,3,4,5,2,2,3,2020-09-29T12:16:37.9100000
+268,18,Male,20-25,Unemployed,Business Field,"Anwara,Chattagram ",Unmarried,I am not Married,I am not Married,3,2,5,3,5,4,1,2,2020-09-29T12:19:14.6570000
+269,19,Female,20-25,Student,Social Studies,Magura,Unmarried,I am not Married,I am not Married,5,5,4,3,5,1,3,4,2020-09-29T12:20:23.7500000
+270,20,Female,20-25,Student,Social Studies,Brahmanbaria,Unmarried,I am not Married,I am not Married,1,1,4,4,4,1,2,5,2020-09-29T12:28:13.4270000
+271,21,Female,26-30,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,"Ullahpara, Sirajgan.  ",Unmarried,I am not Married,I am not Married,5,1,5,4,5,4,3,5,2020-09-29T12:39:25.7270000
+272,22,Female,20-25,Student,Social Studies,Rajbari,Unmarried,I am not Married,I am not Married,4,4,4,4,5,2,4,4,2020-09-29T13:44:41.4570000
+273,23,Female,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,3,3,3,5,1,3,4,2020-09-29T14:29:35.9970000
+274,24,Male,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,4,1,4,4,5,2,2,5,2020-09-29T14:33:53.8200000
+275,24,Female,20-25,Unemployed,Engineering and IT,Comilla,Unmarried,I am not Married,I am not Married,5,2,2,5,5,1,3,5,2020-09-29T14:34:09.6830000
+276,25,Female,36-40,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Other,"Gaibandha ",Married,Yes,Engineering and IT,4,1,5,5,5,3,3,2,2020-09-29T15:19:16.4600000
+277,26,Male,26-30,Engineering and IT,Engineering and IT,"Mymensingh ",Unmarried,I am not Married,I am not Married,3,3,4,1,4,2,1,3,2020-09-29T15:59:03.8870000
+278,26,Male,20-25,Engineering and IT,Engineering and IT,"pangsa, rajbari",Unmarried,I am not Married,I am not Married,2,3,3,5,5,1,1,5,2020-09-29T15:59:12.2500000
+279,27,Female,20-25,Engineering and IT,Engineering and IT,Rangamati,Married,Yes,"Medical Field (Doctor, Nurse, Nutritionist, Pharmacists and other Health Care workers etc)",3,5,5,3,5,2,2,4,2020-09-29T16:05:40.1400000
+280,1,Female,20-25,Engineering and IT,Engineering and IT,"Jessore ",Married,Yes,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",4,2,4,5,5,2,1,5,2020-09-29T16:19:59.6130000
+281,2,Female,20-25,Student,Social Studies,"Dhaka ",Unmarried,I am not Married,I am not Married,5,5,2,5,5,1,4,5,2020-09-29T16:26:43.4300000
+282,3,Female,20-25,Student,Social Studies,Dhaka,Unmarried,I am not Married,I am not Married,5,3,5,5,5,1,3,4,2020-09-29T16:43:54.9300000
+283,4,Male,26-30,Engineering and IT,Engineering and IT,"Noakhali ",Unmarried,I am not Married,I am not Married,3,1,5,5,5,1,4,3,2020-09-29T16:50:41.6970000
+284,4,Male,20-25,Engineering and IT,Engineering and IT,Ishwardi,Unmarried,I am not Married,I am not Married,4,4,5,5,5,1,3,3,2020-09-29T16:50:42.6670000
+285,5,Male,26-30,Student,Other,Munshigonj,Unmarried,I am not Married,I am not Married,4,2,5,5,5,2,3,4,2020-09-29T17:18:56.4400000
+286,6,Male,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,5,5,5,5,1,4,3,2020-09-29T17:45:05.1770000
+287,7,Male,26-30,Engineering and IT,Engineering and IT,Tangail,Unmarried,I am not Married,I am not Married,4,1,5,5,5,1,3,5,2020-09-29T17:48:58.6300000
+288,8,Female,20-25,Engineering and IT,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,4,5,3,4,5,2,3,3,2020-09-29T18:43:09.1030000
+289,9,Male,20-25,"Academia (Teacher, Lecturer, Assistant/ Associate Professor, Professor)",Engineering and IT,Rajshahi,Unmarried,I am not Married,I am not Married,5,1,5,1,4,3,2,4,2020-09-29T18:51:04.9400000
+290,10,Male,20-25,Student,Engineering and IT,Hathazari,Unmarried,I am not Married,I am not Married,4,5,4,5,5,3,2,5,2020-09-29T19:10:31.2500000
+291,11,Male,20-25,Engineering and IT,Engineering and IT,Pabna,Unmarried,I am not Married,I am not Married,3,4,4,5,5,1,1,5,2020-09-29T19:19:13.5830000
+292,12,Male,20-25,Engineering and IT,Engineering and IT,"Ghatail, Tangail",Unmarried,I am not Married,I am not Married,5,3,5,5,5,2,3,5,2020-09-30T01:39:31.2870000
+293,13,Male,20-25,Student,Engineering and IT,"Chittagong ",Unmarried,I am not Married,I am not Married,5,1,5,5,5,3,3,5,2020-09-30T02:07:18.4930000
+294,14,Female,20-25,Engineering and IT,Engineering and IT,"Jessore ",Married,Yes,Engineering and IT,3,4,4,4,4,4,4,5,2020-09-30T04:40:01.6000000
+295,15,Male,26-30,"Business Field (Management, HR, Banking, Marketing etc)",Engineering and IT,Dhaka,Married,My Spouse Does Not Work,Unemployed,3,5,4,5,5,1,5,5,2020-09-30T04:49:00.6800000
+296,16,Male,20-25,Other,Social Studies,Chittagong,Unmarried,I am not Married,I am not Married,4,1,3,5,5,1,3,2,2020-09-30T06:00:25.6030000
+297,17,Male,26-30,Engineering and IT,Engineering and IT,"Uttar Matlab, Chandpur",Unmarried,I am not Married,I am not Married,2,4,3,3,3,3,4,3,2020-09-30T08:38:52.9870000
+298,18,Male,26-30,Engineering and IT,Engineering and IT,chandpur,Unmarried,I am not Married,I am not Married,4,1,4,1,3,1,2,3,2020-09-30T09:17:06.7300000
+299,18,Male,20-25,Student,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,3,5,5,4,5,3,1,4,2020-09-30T09:17:19.1800000
+300,19,Male,20-25,Unemployed,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,5,3,3,1,5,1,3,3,2020-09-30T13:29:32.3200000
+301,20,Female,20-25,Unemployed,Engineering and IT,Dhaka,Unmarried,I am not Married,I am not Married,4,4,3,5,5,1,3,4,2020-09-30T14:04:56.7030000
+302,21,Male,20-25,"Business Field (Management, HR, Banking, Marketing etc)",Other,"Jhenaidah ",Unmarried,I am not Married,I am not Married,3,2,2,1,1,2,3,5,2020-09-30T17:58:24.1570000
+303,22,Female,20-25,Engineering and IT,Engineering and IT,Narayangonj,Unmarried,I am not Married,I am not Married,3,4,5,5,5,1,3,4,2020-10-01T04:27:37.5170000
+304,23,Male,26-30,Engineering and IT,Engineering and IT,"Moammadpur, Dhaka",Married,Yes,Engineering and IT,5,1,3,5,5,1,1,4,2020-10-01T11:26:22.4270000
+305,24,Male,26-30,"Business Field (Management, HR, Banking, Marketing etc)",Business Field,Barisal,Unmarried,I am not Married,I am not Married,3,3,3,5,5,1,1,2,2020-10-06T07:17:10.4600000
+306,25,Male,36-40,Engineering and IT,Engineering and IT,Pabna,Married,Yes,Engineering and IT,3,3,5,5,5,3,3,1,2020-10-08T03:39:09.9800000

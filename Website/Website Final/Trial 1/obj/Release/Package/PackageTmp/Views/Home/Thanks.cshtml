@@ -1,0 +1,200 @@
+﻿@model Trial_1.Models.PreferenceDecider
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/newstory.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/readStory.css">
+    <title>WriteStory</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title>Tag</title>
+    <link rel="stylesheet" type="text/css" href="~/css/tag.css">
+    <link rel="stylesheet" type="text/css" href="~/css/InitialStyleSheet.css">
+    <style>
+        .footercontainer {
+            display: none;
+        }
+
+        table, th, td {
+            padding: 20px;
+        }
+
+        body {
+            background-image: url("../../css/b.jpg");
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover;
+        }
+        body {
+            background-image: url("../../css/b.jpg");
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover;
+        }
+
+        @@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+            body {
+                background-image: url("../../css/b.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 5000px;
+            }
+
+            .mobile-padding {
+                padding-top: 350px;
+            }
+        }
+        .card {
+            /*opacity: .95;*/
+            margin-left: auto;
+            margin-right: auto;
+            width: 1000px;
+            height: 400px;
+            background-color: whitesmoke;
+            opacity: 0.98;
+            box-shadow: 10px 10px 8px 10px #888888;
+            
+        }
+        .container1 {
+            height: 20px;
+
+            position: relative;
+            
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <br />
+        <br />
+        <br />
+        <div class="mobile-padding">
+
+        </div>
+        <div class="card" style="margin-top:150px;">
+            <p style="font-size:40px;text-align:center;font-weight: bold; padding-top: 50px;"><u> Job Allocation Survey </u></p>
+            <div class="row">
+
+
+                <div>
+                    <p style="font-size:25px;text-align:center; padding-left:20px; padding-right: 20px;"> Thank you so much for your response!! Please share the survey with others and show us your support!</p>
+                    <br />
+                   <div class="container1">
+
+                       <div class="center">
+                           <input type="text" id="copyTarget" value="https://popsurvey.azurewebsites.net" style="font-size:25px; background-color: whitesmoke; width : 800px; text-align:center" readonly="readonly">
+                       </div>
+                   </div>
+                    
+                    <div class="container1">
+                        <div class="center">
+                            
+                            <br />
+                            <br />
+                            <br />
+                            <button class="btn btn-success" id="copyButton" style="align-content:center; height:50px; width:80px; "  >Copy  <i class="fa fa-paste"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <br />
+                <br />
+
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        document.getElementById("copyButton").addEventListener("click", function () {
+            copyToClipboard(document.getElementById("copyTarget"));
+        });
+
+        function copyToClipboard(elem) {
+            var btn = document.getElementById("copyButton");
+            btn.textContent = "Copied"
+            // create hidden text element, if it doesn't already exist
+            var targetId = "_hiddenCopyText_";
+            var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+            var origSelectionStart, origSelectionEnd;
+            if (isInput) {
+                // can just use the original source element for the selection and copy
+                target = elem;
+                origSelectionStart = elem.selectionStart;
+                origSelectionEnd = elem.selectionEnd;
+            } else {
+                // must use a temporary form element for the selection and copy
+                target = document.getElementById(targetId);
+                if (!target) {
+                    var target = document.createElement("textarea");
+                    target.style.position = "absolute";
+                    target.style.left = "-9999px";
+                    target.style.top = "0";
+                    target.id = targetId;
+                    document.body.appendChild(target);
+                }
+                target.textContent = elem.textContent;
+            }
+            // select the content
+            var currentFocus = document.activeElement;
+            target.focus();
+            target.setSelectionRange(0, target.value.length);
+
+            // copy the selection
+            var succeed;
+            try {
+                succeed = document.execCommand("copy");
+            } catch (e) {
+                succeed = false;
+            }
+            // restore original focus
+            if (currentFocus && typeof currentFocus.focus === "function") {
+                currentFocus.focus();
+            }
+
+            if (isInput) {
+                // restore prior selection
+                elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+            } else {
+                // clear temporary content
+                target.textContent = "";
+            }
+            return succeed;
+        }
+
+        $(document).ready(function () {
+            history.pushState({ page: 1 }, "title 1", "#nbb");
+            window.onhashchange = function (event) {
+                window.location.hash = "nbb";
+            };
+        });
+        
+    </script>
+</body>
+</html>
