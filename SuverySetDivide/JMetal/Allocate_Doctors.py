@@ -318,7 +318,12 @@ optimize_allocation.allocate()
 #Trial 7
 optimize_allocation = Optimize_Allocation(num_of_trial=7, mutation_probability=0.25, crossover="multi_point", number_of_variables = 20, demand_list = [3, 5, 4, 5, 2, 2, 5],  number_of_city=7, mutation='custom', max_evaluation = 300000)
 optimize_allocation.allocate()
-'''
+
 #Trial 8
 optimize_allocation = Optimize_Allocation(num_of_trial=8, mutation_probability=0.3, crossover="multi_point", number_of_variables = 20, demand_list = [3, 5, 4, 5, 2, 2, 5],  number_of_city=7, mutation='custom', max_evaluation = 200000)
+optimize_allocation.allocate()
+'''
+
+#Trial 9
+optimize_allocation = Optimize_Allocation(num_of_trial=9, mutation_probability=0.4, crossover="multi_point", number_of_variables = 20, demand_list = [3, 5, 4, 5, 2, 2, 5],  number_of_city=7, mutation='custom', max_evaluation = 200000)
 optimize_allocation.allocate()
