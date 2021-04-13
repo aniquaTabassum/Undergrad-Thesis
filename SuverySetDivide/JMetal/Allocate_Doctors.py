@@ -13,7 +13,7 @@ from jmetal.algorithm.singleobjective.genetic_algorithm import GeneticAlgorithm
 from jmetal.core.problem import FloatProblem, IntegerProblem
 from jmetal.core.solution import FloatSolution, IntegerSolution
 from jmetal.operator import BinaryTournamentSelection, PolynomialMutation, SBXCrossover
-from jmetal.operator.mutation import CustomMutation_Integer, IntegerPolynomialMutation
+from jmetal.operator.mutation import Domain_Knowledge_mutation, IntegerPolynomialMutation, Random_Integer_Mutation
 from jmetal.operator.crossover import IntegerSBXCrossover, IntegerSinglePointCrossover, IntegerMultiPointCrossover
 from jmetal.problem.singleobjective.unconstrained import Rastrigin
 from jmetal.util.comparator import DominanceComparator
@@ -205,10 +205,12 @@ class Optimize_Allocation():
         elif crossover == 'multi_point':
             self.crossover = IntegerMultiPointCrossover(probability=0.9)
 
-        if mutation == 'custom':
-            self.mutation = CustomMutation_Integer(probability=mutation_probability, number_of_city=number_of_city, demand_list= demand_list )
-        else:
+        if mutation == 'domain':
+            self.mutation = Domain_Knowledge_mutation(probability=mutation_probability, number_of_city=number_of_city, demand_list= demand_list )
+        elif mutation == 'polynomial':
             self.mutation = IntegerPolynomialMutation(probability= mutation_probability, distribution_index=20)
+        elif mutation == 'random':
+            self.mutation = Random_Integer_Mutation(probability=mutation_probability, number_of_city=number_of_city)
 
     def allocate(self):
         problem = Find_Optimum_Allocation(number_of_variables=self.number_of_variables, demand_list=self.demand_list, number_of_city=self.number_of_city)
@@ -322,8 +324,21 @@ optimize_allocation.allocate()
 #Trial 8
 optimize_allocation = Optimize_Allocation(num_of_trial=8, mutation_probability=0.3, crossover="multi_point", number_of_variables = 20, demand_list = [3, 5, 4, 5, 2, 2, 5],  number_of_city=7, mutation='custom', max_evaluation = 200000)
 optimize_allocation.allocate()
-'''
+
 
 #Trial 9
 optimize_allocation = Optimize_Allocation(num_of_trial=9, mutation_probability=0.4, crossover="multi_point", number_of_variables = 20, demand_list = [3, 5, 4, 5, 2, 2, 5],  number_of_city=7, mutation='custom', max_evaluation = 200000)
 optimize_allocation.allocate()
+
+for i in range(50):
+    optimize_allocation = Optimize_Allocation(num_of_trial=(i+10), mutation_probability=0.3, crossover="single_point",
+                                              number_of_variables=20, demand_list=[3, 5, 4, 5, 2, 2, 4],
+                                              number_of_city=7, mutation='random', max_evaluation=300000)
+    optimize_allocation.allocate()
+    
+'''
+for i in range(50):
+    optimize_allocation = Optimize_Allocation(num_of_trial=(i+60), mutation_probability=0.3, crossover="multi_point",
+                                              number_of_variables=20, demand_list=[3, 5, 4, 5, 2, 2, 4],
+                                              number_of_city=7, mutation='random', max_evaluation=300000)
+    optimize_allocation.allocate()
