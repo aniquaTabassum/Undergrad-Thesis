@@ -5,6 +5,7 @@ from jmetal.util.comparator import DominanceComparator
 from jmetal.util.solution import print_function_values_to_file, print_variables_to_file, read_solutions, \
     get_non_dominated_solutions
 from jmetal.util.termination_criterion import StoppingByEvaluations
+import argparse
 from jmetal.lab.visualization import Plot
 import pandas as pd
 import numpy as np
@@ -21,6 +22,7 @@ from jmetal.util.solution import print_function_values_to_file, print_variables_
 from jmetal.util.termination_criterion import StoppingByEvaluations
 import math
 from FinalWeights import LinearRegression
+import multiprocessing
 
 class Find_Optimum_Allocation(IntegerProblem):
 
@@ -193,7 +195,7 @@ class Areas():
             self.distances_dict[self.distanes_dataset.at[i, 'From']][self.distanes_dataset.at[i, 'To']] = distance_level
 
 class Optimize_Allocation():
-    def __init__(self, num_of_trial, mutation_probability, crossover, mutation, number_of_city, demand_list, number_of_variables, max_evaluation):
+    def __init__(self, num_of_trial, mutation_probability, crossover, mutation, number_of_city, demand_list, number_of_variables, max_evaluation, crossover_probability):
         self.num_of_trial = num_of_trial
         self.mutation_probability = mutation_probability
         self.number_of_city = number_of_city
@@ -201,9 +203,9 @@ class Optimize_Allocation():
         self.number_of_variables = number_of_variables
         self.max_evaluations = max_evaluation
         if crossover == 'single_point':
-            self.crossover = IntegerSinglePointCrossover(probability=0.9)
+            self.crossover = IntegerSinglePointCrossover(probability=crossover_probability)
         elif crossover == 'multi_point':
-            self.crossover = IntegerMultiPointCrossover(probability=0.9)
+            self.crossover = IntegerMultiPointCrossover(probability=crossover_probability)
 
         if mutation == 'domain':
             self.mutation = Domain_Knowledge_mutation(probability=mutation_probability, number_of_city=number_of_city, demand_list= demand_list )
@@ -337,8 +339,33 @@ for i in range(50):
     optimize_allocation.allocate()
     
 '''
-for i in range(50):
-    optimize_allocation = Optimize_Allocation(num_of_trial=(i+60), mutation_probability=0.3, crossover="multi_point",
-                                              number_of_variables=20, demand_list=[3, 5, 4, 5, 2, 2, 4],
-                                              number_of_city=7, mutation='random', max_evaluation=300000)
+
+
+def perform_optimize_allocation(num_of_trial, mutation_probability, crossover, number_of_variables, demand_list, number_of_city, mutation, max_evaluation, crossover_probability):
+    optimize_allocation = Optimize_Allocation(num_of_trial=num_of_trial, mutation_probability=mutation_probability, crossover=crossover,
+                                              number_of_variables=number_of_variables, demand_list=demand_list, number_of_city=number_of_city, mutation=mutation, max_evaluation=max_evaluation, crossover_probability=crossover_probability)
     optimize_allocation.allocate()
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Doctor allocator.")
+    parser.add_argument('--iter_start', help="Iteration start number.", required=True, type=int)
+    args = parser.parse_args()
+    iter_start = args.iter_start
+
+    all_params = []
+    for i in range(50):
+        params = ((i + iter_start), 0.3, "multi_point", 20, [3, 5, 4, 5, 2, 2, 4], 7, "random", 300000, 0.9)
+        all_params.append(params)
+
+    # for params in all_params:
+    #     perform_optimize_allocation(*params)
+    with multiprocessing.Pool(processes=4) as pool:
+        pool.starmap(perform_optimize_allocation, all_params)
+
+    # for i in range(50):
+    #     # params = {"num_of_trial": (i+iter_start), "mutation_probability": 0.3, "crossover": "multi_point",
+    #     #                                           "number_of_variables": 20, "demand_list": [3, 5, 4, 5, 2, 2, 4],
+    #     #                                           "number_of_city": 7, "mutation": 'random', "max_evaluation": 300000}
+    #     params = ((i+iter_start), 0.3, "multi_point", 20, [3, 5, 4, 5, 2, 2, 4], 7, "random", 300000, 0.9)
+    #     perform_optimize_allocation(*params)
