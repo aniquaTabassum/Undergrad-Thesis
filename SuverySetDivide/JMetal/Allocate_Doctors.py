@@ -23,17 +23,21 @@ from jmetal.util.termination_criterion import StoppingByEvaluations
 import math
 from FinalWeights import LinearRegression
 import multiprocessing
+from JMetal import global_config
 
 class Find_Optimum_Allocation(IntegerProblem):
 
     def __init__(self, number_of_variables: int = 2, number_of_city = 7, demand_list = []):
         super(Find_Optimum_Allocation, self).__init__()
+
+
+
         self.number_of_city = number_of_city
-        self.doctors = Doctors("doctor_dataset.csv")
+        self.doctors = Doctors(global_config.doctors_dataset)
         self.doctors.extract_doctor_info()
         self.doctors.doctor_dataset = self.doctors.doctor_dataset[0:number_of_variables]
-        self.areas = Areas("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/merged.csv",
-                      "/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/distances.csv")
+        self.areas = Areas(global_config.areas_filename,
+                      global_config.areas_distance_filename)
         self.areas.categorize_schooling()
         self.areas.categorize_house_rent()
         self.areas.categorize_security()
@@ -130,11 +134,11 @@ class Doctors():
         self.filename = filename
         self.doctor_dataset = None
 
-    def write_doctor_dataset(self):
-        doctor_to_write = pd.DataFrame(self.doctor_dataset)
-        doctor_to_write.to_csv(
-            r'/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/doctor_dataset.csv',
-            index=False, header=True)
+    # def write_doctor_dataset(self):
+    #     doctor_to_write = pd.DataFrame(self.doctor_dataset)
+    #     doctor_to_write.to_csv(
+    #         r'/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/doctor_dataset.csv',
+    #         index=False, header=True)
     def extract_doctor_info(self):
         self.doctor_dataset = pd.read_csv(self.filename)
         self.doctor_dataset = self.doctor_dataset[['0', '1', '2', '3']]
@@ -242,8 +246,8 @@ class Optimize_Allocation():
         #result = get_non_dominated_solutions(algorithm.get_result())
         result = algorithm.get_result()
 
-        print_function_values_to_file(result, '/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/FUN/FUN.' + algorithm.label+' Trial '+str(self.num_of_trial))
-        print_variables_to_file(result, '/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/VAR/VAR.' + algorithm.label+' Trial '+ str(self.num_of_trial))
+        print_function_values_to_file(result, global_config.FUN_path + algorithm.label+' Trial '+str(self.num_of_trial))
+        print_variables_to_file(result, global_config.VAR_path + algorithm.label+' Trial '+ str(self.num_of_trial))
         print('Algorithm: {}'.format(algorithm.get_name()))
         print('Problem: {}'.format(problem.get_name()))
         #print('Solution: {}'.format(result.variables))
@@ -251,7 +255,7 @@ class Optimize_Allocation():
         print('Computing time: {}'.format(algorithm.total_computing_time))
 
         plot_front = Plot(title='Pareto front approximation', axis_labels=['X', 'Y'])
-        png_name = "/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/Plots/NSGAII-Doctor_Trial"+str(self.num_of_trial)
+        png_name = global_config.png_path + str(self.num_of_trial)
         plot_front.plot(result, label='NSGAII-Allocation', filename=png_name, format='png')
 
 
@@ -350,17 +354,26 @@ def perform_optimize_allocation(num_of_trial, mutation_probability, crossover, n
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Doctor allocator.")
     parser.add_argument('--iter_start', help="Iteration start number.", required=True, type=int)
+    parser.add_argument('--crossover_type', help="Which type of crossover.", required=True, type=str,
+                        choices=["single_point", "multi_point"])
+    parser.add_argument('--mutation_type', help="Type of mutation.", required=True, type=str,
+                        choices=["random", "domain"])
+    parser.add_argument('--num_process', help="Number of parallel processes.", required=False, type=int, default=8)
     args = parser.parse_args()
     iter_start = args.iter_start
+    crossover_type = args.crossover_type
+    mutation_type = args.mutation_type
+    num_process = args.num_process
 
     all_params = []
+
     for i in range(50):
-        params = ((i + iter_start), 0.3, "multi_point", 20, [3, 5, 4, 5, 2, 2, 4], 7, "random", 300000, 0.9)
+        params = ((i + iter_start), 0.3, crossover_type, 20, [3, 5, 4, 5, 2, 2, 4], 7, mutation_type, 300000, 0.9)
         all_params.append(params)
 
     # for params in all_params:
     #     perform_optimize_allocation(*params)
-    with multiprocessing.Pool(processes=4) as pool:
+    with multiprocessing.Pool(processes=num_process) as pool:
         pool.starmap(perform_optimize_allocation, all_params)
 
     # for i in range(50):

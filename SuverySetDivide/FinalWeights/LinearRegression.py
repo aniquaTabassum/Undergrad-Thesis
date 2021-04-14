@@ -13,7 +13,8 @@ from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
 from sklearn.model_selection import learning_curve
 from sklearn.neural_network import MLPRegressor
-import seaborn as sn
+from JMetal import global_config
+# import seaborn as sn
 
 class FindWeight():
     def __init__(self):
@@ -23,7 +24,7 @@ class FindWeight():
         self.mode = None
         self.cv_data = None
     def modify_dataset(self):
-        self.dataset = pd.read_csv("testing.csv")
+        self.dataset = pd.read_csv(global_config.testing)
         self.dataset["AGE_RANGE"] = self.dataset["AGE_RANGE"].replace(
             ["20-25", "26-30", "31-35", "36-40", "41 or Above"],
             [20, 26, 31, 36, 41])
@@ -73,13 +74,13 @@ class FindWeight():
         print("finished")
 
     def weightCalculate(self):
-        self.dataset = pd.read_csv("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/FinalWeights/training_data_whole.csv" )
+        self.dataset = pd.read_csv(global_config.training_data_whole)
        # self.dataset = self.dataset[self.dataset['OCCUPATION'] == 7]
         #X_train = self.dataset[['SECURITY', 'SCHOOL', 'RENT', 'DISTANCE']].values
         X_train = self.dataset[['GENDER', 'AGE_RANGE',  'OCCUPATION',  'SECURITY', 'SCHOOL', 'RENT', 'DISTANCE']].values
         y_train = self.dataset['ANSWER1'].values
 
-        self.dataset = pd.read_csv("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/FinalWeights/cross_validation_data_whole.csv")
+        self.dataset = pd.read_csv(global_config.cross_validation_whole)
 
         #x_cross = self.dataset[['SECURITY', 'SCHOOL', 'RENT', 'DISTANCE']].values
         x_cross = self.dataset[['GENDER', 'AGE_RANGE', 'OCCUPATION',  'SECURITY', 'SCHOOL', 'RENT',  'DISTANCE']].values
