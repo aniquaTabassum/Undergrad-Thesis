@@ -21,6 +21,11 @@
 
 package jmetal.qualityIndicator;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
 /**
  * This class implements the hypervolume indicator. The code is the a Java version
  * of the original metric implementation by Eckart Zitzler.
@@ -252,23 +257,36 @@ public class Hypervolume {
    * 2) the name of the file containig the true Pareto front
    * 3) the number of objectives
    */
-  public static void main(String args[]) {
+  public static void main(String args[]) throws IOException {
     if (args.length < 2) {
       System.err.println("Error using Hypervolume. Usage: \n java jmetal.qualityIndicator.Hypervolume " +
                          "<SolutionFrontFile> " +
                          "<TrueFrontFile> " + "<getNumberOfObjectives>");
       System.exit(1);
     }
-    
+    Writer writer = new FileWriter("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/Merged Results/Setting 4/Hypervolume/hv_setting4");
     //Create a new instance of the metric
     Hypervolume qualityIndicator = new Hypervolume();
-    //Read the front from the files
-    double [][] solutionFront = qualityIndicator.utils_.readFront(args[0]);
     double [][] trueFront     = qualityIndicator.utils_.readFront(args[1]);
+    //Read the front from the files
+    String directory = args[0];
+    File folder = new File(directory);
+    File[] listOfFiles = folder.listFiles();
+    for (int i = 0; i < listOfFiles.length; i++) {
+      String file = listOfFiles[i].getAbsolutePath();
+      double [][] solutionFront = qualityIndicator.utils_.readFront(file);
+      double value = qualityIndicator.hypervolume(solutionFront, trueFront, new Integer(args[2]));
+
+      System.out.println(value);
+      writer.write(String.valueOf(value));
+      writer.write("\n");
+
+    }
+    writer.close();
+
+
     
     //Obtain delta value
-    double value = qualityIndicator.hypervolume(solutionFront, trueFront, new Integer(args[2]));
-    
-    System.out.println(value);  
+
   } // main
 } // Hypervolume

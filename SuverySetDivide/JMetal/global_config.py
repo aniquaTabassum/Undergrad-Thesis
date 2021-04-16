@@ -1,5 +1,5 @@
-# _base_dir = "/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/"
-_base_dir = "/playpen/jisan/VirtualEnvironments/anq/workdir/code/SurveySetDivide/"
+_base_dir = "/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/"
+#_base_dir = "/playpen/jisan/VirtualEnvironments/anq/workdir/code/SurveySetDivide/"
 
 areas_filename = _base_dir + "JMetal/merged.csv"
 areas_distance_filename = _base_dir + "JMetal/distances.csv"
@@ -10,4 +10,5 @@ cross_validation_whole = _base_dir + "FinalWeights/cross_validation_data_whole.c
 FUN_path = _base_dir + "JMetal/Results/FUN/FUN."
 VAR_path = _base_dir + "JMetal/Results/VAR/VAR."
 png_path = _base_dir + "JMetal/Results/Plots/NSGAII-Doctor_Trial"
+tp_path = _base_dir + "JMetal/Results/Merged Results/Merged FUN/Merged FUN Total.pf"
 
