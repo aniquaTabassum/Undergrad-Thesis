@@ -76,7 +76,7 @@ public abstract class Experiment {
   public boolean finished_;  // Flag to indicate when the experiment has ended
   public static int algorithmIndex; // Index of the next algorithm to run
   public static int problemIndex; // Index of the next problem to solve
-  public static int irunIndex; // Counter of the independent runs
+  public static int irunIndex; // Counter of the indepeƒndent runs
   // Fin modificación planificación Threads
 
   /**

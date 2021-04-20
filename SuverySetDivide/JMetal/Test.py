@@ -161,5 +161,5 @@ repair_var.repair()
 
 '''
 
-custom_mutation = Custom_Mutation(solution=[0, 1, 2, 3, 4, 4, 6, 5, 5, 2], probability=1.0, number_of_city=7, demand_list=[2, 1, 1, 1, 1, 1, 1])
+custom_mutation = Custom_Mutation(solution=[5, 1, 2, 3, 4, 4, 5, 5, 5, 2], probability=1.0, number_of_city=7, demand_list=[2, 1, 1, 1, 1, 1, 1])
 custom_mutation.execute()
