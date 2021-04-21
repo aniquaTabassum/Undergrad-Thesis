@@ -6,6 +6,7 @@ from jmetal.util.solution import print_function_values_to_file, print_variables_
     get_non_dominated_solutions
 from jmetal.util.termination_criterion import StoppingByEvaluations
 import copy
+import random
 import argparse
 from jmetal.lab.visualization import Plot
 import pandas as pd
@@ -58,6 +59,7 @@ class Find_Optimum_Allocation(IntegerProblem):
         self.upper_bound = [number_of_city - 1 for _ in range(number_of_variables)]
         self.demand_list = demand_list
         self.min_allocation_list = []
+        self.doctor_dream_allocation_list = []
         FloatSolution.lower_bound = self.lower_bound
         FloatSolution.upper_bound = self.upper_bound
         percent_of_doctor_available_list = []
@@ -72,6 +74,31 @@ class Find_Optimum_Allocation(IntegerProblem):
                 self.min_allocation_list.append(math.ceil(temp))
 
         print(self.min_allocation_list)
+        self.set_dream_allocation()
+
+    def set_dream_allocation(self):
+        for i in range(self.number_of_variables):
+            city_to_allocate = 0
+            most_satisfaction = -1
+            current_doctor = self.doctors.doctor_dataset.iloc[i]
+            doctor_info = current_doctor.iloc[0:3].to_list()
+            distant_list_from_curr_HT = list(self.areas.distances_dict[current_doctor.iloc[3]].values())
+            for j in range(self.number_of_city):
+                area_info = self.areas.area_dataset.iloc[j, :].to_list()
+                parameter_of_NN = [doctor_info[0], doctor_info[1], doctor_info[2], area_info[2], area_info[1],
+                                   area_info[0],
+                                   distant_list_from_curr_HT[j]]
+                satisfaction_in_area = self.NN_predictor.satisfaction_prediction(parameter_of_NN)
+                if satisfaction_in_area[0] > most_satisfaction:
+                    city_to_allocate = j
+                    most_satisfaction = satisfaction_in_area[0]
+
+                if satisfaction_in_area[0] == most_satisfaction:
+                    should_change_doctor = random.randint(0, 1)
+                    if should_change_doctor == 1:
+                        city_to_allocate = j
+                        most_satisfaction = satisfaction_in_area[0]
+            self.doctor_dream_allocation_list.append(city_to_allocate)
 
     def get_weights(self):
         return self.NN_predictor
@@ -87,6 +114,9 @@ class Find_Optimum_Allocation(IntegerProblem):
 
     def get_num_of_doctors(self):
         return self.number_of_variables
+
+    def get_dream_allocation(self):
+        return self.doctor_dream_allocation_list
 
     def evaluate(self, solution: IntegerSolution) -> IntegerSolution:
 
@@ -138,7 +168,7 @@ class Find_Optimum_Allocation(IntegerProblem):
             if len_of_area <= self.demand_list[i]:
                 demand_met = len_of_area / self.demand_list[i]
             else:
-                demand_met = 1 - (len_of_area - self.demand_list[i])/self.demand_list[i]
+                demand_met = 1 - (len_of_area - self.demand_list[i]) / self.demand_list[i]
             sum_demand_supply += demand_met
 
         # print("nd is ", nd, " and demand met is ", sum_demand_supply)
@@ -236,11 +266,13 @@ class Optimize_Allocation():
         self.weights = None
         self.doctors = None
         self.areas = None
-        self.problem = Find_Optimum_Allocation(number_of_variables=self.number_of_variables, demand_list=self.demand_list,
-                                          number_of_city=self.number_of_city)
+        self.problem = Find_Optimum_Allocation(number_of_variables=self.number_of_variables,
+                                               demand_list=self.demand_list,
+                                               number_of_city=self.number_of_city)
         self.weights = self.problem.get_weights()
         self.doctors = self.problem.get_doctors()
         self.areas = self.problem.get_areas()
+        self.dream_allocation = self.problem.get_dream_allocation()
 
         if crossover == 'single_point':
             self.crossover = IntegerSinglePointCrossover(probability=crossover_probability)
@@ -249,15 +281,15 @@ class Optimize_Allocation():
 
         if mutation == 'domain':
             self.mutation = Domain_Knowledge_mutation(probability=mutation_probability, number_of_city=number_of_city,
-                                                      demand_list=demand_list, weights=self.weights, areas = self.areas, doctors=self.doctors, num_of_variables=self.number_of_variables)
+                                                      demand_list=demand_list, weights=self.weights, areas=self.areas,
+                                                      doctors=self.doctors, num_of_variables=self.number_of_variables,
+                                                      dream_allocation=self.dream_allocation)
         elif mutation == 'polynomial':
             self.mutation = IntegerPolynomialMutation(probability=mutation_probability, distribution_index=20)
         elif mutation == 'random':
             self.mutation = Random_Integer_Mutation(probability=mutation_probability, number_of_city=number_of_city)
 
     def allocate(self):
-
-
 
         algorithm = NSGAII(
             problem=self.problem,
@@ -285,8 +317,6 @@ class Optimize_Allocation():
         plot_front = Plot(title='Pareto front approximation', axis_labels=['X', 'Y'])
         png_name = global_config.png_path + str(self.num_of_trial)
         plot_front.plot(result, label='NSGAII-Allocation', filename=png_name, format='png')
-
-
 
 
 def perform_optimize_allocation(num_of_trial, mutation_probability, crossover, number_of_variables, demand_list,
@@ -319,11 +349,14 @@ if __name__ == "__main__":
     all_params = []
 
     for i in range(50):
-        params = ((i + iter_start), mutation_probability, crossover_type, 20, [3, 5, 4, 5, 2, 2, 4], 7, mutation_type, 300000, 0.9)
+        params = (
+        (i + iter_start), mutation_probability, crossover_type, 20, [3, 5, 4, 5, 2, 2, 4], 7, mutation_type, 300000,
+        0.9)
         all_params.append(params)
 
     # for params in all_params:
-    #     perform_optimize_allocation(*params)
+    #   perform_optimize_allocation(*params)
+
     with multiprocessing.Pool(processes=num_process) as pool:
         pool.starmap(perform_optimize_allocation, all_params)
 

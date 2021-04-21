@@ -8,7 +8,7 @@ from jmetal.util.ckecking import Check
 
 class Domain_Knowledge_mutation(Mutation[IntegerSolution]):
 
-    def __init__(self, number_of_city, demand_list, probability: float, weights, doctors, areas, num_of_variables):
+    def __init__(self, number_of_city, demand_list, probability: float, weights, doctors, areas, num_of_variables, dream_allocation):
         super(Domain_Knowledge_mutation, self).__init__(probability=probability)
         self.number_of_city = number_of_city
         self.demand_list = demand_list
@@ -16,11 +16,11 @@ class Domain_Knowledge_mutation(Mutation[IntegerSolution]):
         self.doctors = doctors
         self.areas = areas
         self.num_of_variables = num_of_variables
-
+        self.dream_allocation = dream_allocation
     def execute(self, solution: IntegerSolution) -> IntegerSolution:
         Check.that(issubclass(type(solution), IntegerSolution), "Solution type invalid")
         random_probability = random.random()
-        satisfaction_or_dispersion_probability = random.random()()
+        satisfaction_or_dispersion_probability = random.random()
         if random_probability <= self.probability:
             if satisfaction_or_dispersion_probability <= 0.5:
                 city_to_reallocate_and_by_whom = self.balance_dispersion(solution)
@@ -43,6 +43,7 @@ class Domain_Knowledge_mutation(Mutation[IntegerSolution]):
             while random_city == current_city:
                 random_city = random.randint(0, self.number_of_city - 1)
             solution.variables[random_index] = random_city
+            return [random_index, random_city]
 
         # Case 2
         else:
@@ -73,26 +74,8 @@ class Domain_Knowledge_mutation(Mutation[IntegerSolution]):
 
     def increase_satisfaction_of_a_doctor(self):
         random_doctor_to_satisfy = random.randint(0, self.num_of_variables - 1)
-        city_to_allocate = -1
-        current_doctor = self.doctors.doctor_dataset.iloc[random_doctor_to_satisfy]
-        doctor_info = current_doctor.iloc[0:3].to_list()
-        distant_list_from_curr_HT = list(self.areas.distances_dict[current_doctor.iloc[3]].values())
-        for i in range(self.number_of_city):
-            area_info = self.areas.area_dataset.iloc[i, :].to_list()
-            parameter_of_NN = [doctor_info[0], doctor_info[1], doctor_info[2], area_info[2], area_info[1], area_info[0],
-                               distant_list_from_curr_HT[i]]
-            satisfaction_in_area = self.weights.satisfaction_prediction(parameter_of_NN)
-            if satisfaction_in_area[0] > most_satisfaction:
-                city_to_allocate = i
-                most_satisfaction = satisfaction_in_area[0]
 
-            if satisfaction_in_area[0] == most_satisfaction:
-                should_change_doctor = random.randint(0, 1)
-                if should_change_doctor == 1:
-                    city_to_allocate = i
-                    most_satisfaction = satisfaction_in_area[0]
-
-        return [random_doctor_to_satisfy, city_to_allocate]
+        return [random_doctor_to_satisfy, self.dream_allocation[random_doctor_to_satisfy]]
 
     def get_name(self):
         return 'Domain Knowledge Mutation (Integer)'

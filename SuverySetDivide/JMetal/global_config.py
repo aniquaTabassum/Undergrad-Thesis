@@ -1,5 +1,5 @@
-#_base_dir = "/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/"
-_base_dir = "/playpen/jisan/VirtualEnvironments/anq/workdir/code/SurveySetDivide/"
+_base_dir = "/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/"
+#_base_dir = "/playpen/jisan/VirtualEnvironments/anq/workdir/code/SurveySetDivide/"
 
 areas_filename = _base_dir + "JMetal/merged.csv"
 areas_distance_filename = _base_dir + "JMetal/distances.csv"
