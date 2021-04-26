@@ -1,0 +1,15 @@
+1. SPC+RM mutation probability 0.3
+2. MPC+RM mutation probability 0.3
+3. SPC+DKM mutation probability 0.3
+4. MPC+DKM mutation probability 0.3
+5. SBX+Poly mutation probability 0.3
+6. SPC+DKM_V2 mutation probability 0.3
+7. SPC+DKM_V2 mutation probability 0.9
+8. SPC+RM mutation probability 0.9
+10. mpc+rm mutation probability 0.9
+11. SPC+DKM_V2 mutation probability 0.8
+12. SPC+RM mutation probability 0.8
+13. mpc+rm mutation probability 0.8
+14. SPC+DKM_V2 mutation probability 0.7
+15. SPC+RM mutation probability 0.7
+16. mpc+rm mutation probability 0.7

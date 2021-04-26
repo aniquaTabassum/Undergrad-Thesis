@@ -22,15 +22,23 @@ class Domain_Knowledge_mutation(Mutation[IntegerSolution]):
         random_probability = random.random()
         satisfaction_or_dispersion_probability = random.random()
         if random_probability <= self.probability:
-            if satisfaction_or_dispersion_probability <= 0.5:
+            if satisfaction_or_dispersion_probability <= 0.33:
                 city_to_reallocate_and_by_whom = self.balance_dispersion(solution)
                 # Replace city of randomly chosen doctor with the city with the highest demand from unallocated cities
                 solution.variables[city_to_reallocate_and_by_whom[0]] = city_to_reallocate_and_by_whom[1]
                 # solution.variables[doctor_to_allocate] = unallocated_city_with_most_demand
 
-            else:
+            elif 0.33 < satisfaction_or_dispersion_probability <= 0.66:
                 doctor_to_and_where_to_allocate = self.increase_satisfaction_of_a_doctor()
                 solution.variables[doctor_to_and_where_to_allocate[0]] = doctor_to_and_where_to_allocate[1]
+
+            else:
+                random_index = random.randint(0, len(solution.variables) - 1)
+                current_city = solution.variables[random_index]
+                random_city = current_city
+                while random_city == current_city:
+                    random_city = random.randint(0, self.number_of_city - 1)
+                solution.variables[random_index] = random_city
 
         return solution
 
@@ -103,3 +111,20 @@ class Random_Integer_Mutation(Mutation[IntegerSolution]):
 
     def get_name(self):
         return 'Simple Random Mutation (Integer)'
+
+class SimpleRandomMutation(Mutation[IntegerSolution]):
+
+    def __init__(self, probability: float):
+        super(SimpleRandomMutation, self).__init__(probability=probability)
+
+    def execute(self, solution: IntegerSolution) -> IntegerSolution:
+        Check.that(type(solution) is IntegerSolution, "Solution type invalid")
+
+        for i in range(solution.number_of_variables):
+            rand = random.random()
+            if rand <= self.probability:
+                solution.variables[i] = random.randint(solution.lower_bound[i], solution.upper_bound[i])
+        return solution
+
+    def get_name(self):
+        return 'Simple random_search mutation'

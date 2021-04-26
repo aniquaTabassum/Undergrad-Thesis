@@ -161,5 +161,10 @@ repair_var.repair()
 
 '''
 
-custom_mutation = Custom_Mutation(solution=[5, 1, 2, 3, 4, 4, 5, 5, 5, 2], probability=1.0, number_of_city=7, demand_list=[2, 1, 1, 1, 1, 1, 1])
-custom_mutation.execute()
+# custom_mutation = Custom_Mutation(solution=[5, 1, 2, 3, 4, 4, 5, 5, 5, 2], probability=1.0, number_of_city=7, demand_list=[2, 1, 1, 1, 1, 1, 1])
+# custom_mutation.execute()
+
+list_of_list = [[1, 2, 3, 4], [5, 6, 7, 8], [1, 2, 3, 4]]
+set_of_list = [tuple(list_element) for list_element in list_of_list]
+set_of_list = set(set_of_list)
+print(set_of_list)

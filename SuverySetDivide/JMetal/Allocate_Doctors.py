@@ -15,8 +15,9 @@ from jmetal.algorithm.multiobjective import NSGAII
 from jmetal.core.problem import FloatProblem, IntegerProblem
 from jmetal.core.solution import FloatSolution, IntegerSolution
 from jmetal.operator import BinaryTournamentSelection, PolynomialMutation, SBXCrossover
+from JMetal.custom_algorithm.custom_nsga import NSGAII_custom
 from jmetal.operator.mutation import IntegerPolynomialMutation
-from JMetal.custom_operators.custom_mutation import Domain_Knowledge_mutation, Random_Integer_Mutation
+from JMetal.custom_operators.custom_mutation import Domain_Knowledge_mutation, Random_Integer_Mutation, SimpleRandomMutation
 from jmetal.operator.crossover import IntegerSBXCrossover
 from JMetal.custom_operators.custom_crossover import IntegerSinglePointCrossover, IntegerMultiPointCrossover
 from jmetal.problem.singleobjective.unconstrained import Rastrigin
@@ -279,6 +280,9 @@ class Optimize_Allocation():
         elif crossover == 'multi_point':
             self.crossover = IntegerMultiPointCrossover(probability=crossover_probability)
 
+        elif crossover == "SBX":
+            self.crossover = IntegerSBXCrossover(probability=crossover_probability)
+
         if mutation == 'domain':
             self.mutation = Domain_Knowledge_mutation(probability=mutation_probability, number_of_city=number_of_city,
                                                       demand_list=demand_list, weights=self.weights, areas=self.areas,
@@ -288,10 +292,12 @@ class Optimize_Allocation():
             self.mutation = IntegerPolynomialMutation(probability=mutation_probability, distribution_index=20)
         elif mutation == 'random':
             self.mutation = Random_Integer_Mutation(probability=mutation_probability, number_of_city=number_of_city)
+        elif mutation == "simple":
+            self.mutation = SimpleRandomMutation(probability=mutation_probability)
 
     def allocate(self):
 
-        algorithm = NSGAII(
+        algorithm = NSGAII_custom(
             problem=self.problem,
             population_size=100,
             offspring_population_size=100,
@@ -304,6 +310,7 @@ class Optimize_Allocation():
         algorithm.run()
         # result = get_non_dominated_solutions(algorithm.get_result())
         result = algorithm.get_result()
+
 
         print_function_values_to_file(result,
                                       global_config.FUN_path + algorithm.label + ' Trial ' + str(self.num_of_trial))
@@ -326,7 +333,8 @@ def perform_optimize_allocation(num_of_trial, mutation_probability, crossover, n
                                               number_of_variables=number_of_variables, demand_list=demand_list,
                                               number_of_city=number_of_city, mutation=mutation,
                                               max_evaluation=max_evaluation,
-                                              crossover_probability=crossover_probability)
+                                              crossover_probability=crossover_probability
+                                              )
     optimize_allocation.allocate()
 
 
@@ -334,11 +342,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Doctor allocator.")
     parser.add_argument('--iter_start', help="Iteration start number.", required=True, type=int)
     parser.add_argument('--crossover_type', help="Which type of crossover.", required=True, type=str,
-                        choices=["single_point", "multi_point"])
+                        choices=["single_point", "multi_point", "SBX"])
     parser.add_argument('--mutation_type', help="Type of mutation.", required=True, type=str,
-                        choices=["random", "domain"])
+                        choices=["random", "domain", "polynomial", "simple"])
     parser.add_argument('--num_process', help="Number of parallel processes.", required=False, type=int, default=8)
     parser.add_argument('--mutation_probability', help="Mutation probability.", required=True, type=float)
+
     args = parser.parse_args()
     iter_start = args.iter_start
     crossover_type = args.crossover_type
@@ -354,11 +363,11 @@ if __name__ == "__main__":
         0.9)
         all_params.append(params)
 
-    # for params in all_params:
-    #   perform_optimize_allocation(*params)
+    for params in all_params:
+      perform_optimize_allocation(*params)
 
-    with multiprocessing.Pool(processes=num_process) as pool:
-        pool.starmap(perform_optimize_allocation, all_params)
+    # with multiprocessing.Pool(processes=num_process) as pool:
+    #     pool.starmap(perform_optimize_allocation, all_params)
 
     # for i in range(50):
     #     # params = {"num_of_trial": (i+iter_start), "mutation_probability": 0.3, "crossover": "multi_point",
