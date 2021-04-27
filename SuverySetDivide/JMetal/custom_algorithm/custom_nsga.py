@@ -109,16 +109,17 @@ class NSGAII_custom(GeneticAlgorithm[S, R]):
         #print(offspring[1].variables)
         #print("repair on offspring")
 
-
-        set_of_list = [tuple(list_element.variables) for list_element in offspring_population]
-        set_of_list = set(set_of_list)
+        # Create empty set
+        # If solution in set, then mutate
+        # Else do not mutate and and to set
+        set_of_solution = set()
         for solution in offspring_population:
-            if tuple(solution.variables) in set_of_list:
+            if tuple(solution.variables) in set_of_solution:
                 srm.execute(solution)
+            else:
+                set_of_solution.add(tuple(solution.variables))
 
         set_of_list = [tuple(list_element.variables) for list_element in offspring_population]
-        set_of_list = set(set_of_list)
-
         print("there are " + str(len(offspring_population) - len(set_of_list)) + " repeatations")
 
         return offspring_population
