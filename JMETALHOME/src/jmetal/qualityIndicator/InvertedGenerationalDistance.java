@@ -21,6 +21,11 @@
 
 package jmetal.qualityIndicator;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
 /**
  * This class implements the inverted generational distance metric. 
  * It can be used also as a command line by typing: 
@@ -110,7 +115,7 @@ public class InvertedGenerationalDistance {
    * 1) the name of the file containing the front, and 2) the name of the file 
    * containig the true Pareto front
    **/
-  public static void main(String args[]) {
+  public static void main(String args[]) throws IOException {
     if (args.length < 2) {
       System.err.println("InvertedGenerationalDistance::Main: Usage: java " +
       		             "InvertedGenerationalDistance <FrontFile> " +
@@ -120,18 +125,28 @@ public class InvertedGenerationalDistance {
     
     // STEP 1. Create an instance of Generational Distance
     InvertedGenerationalDistance qualityIndicator = new InvertedGenerationalDistance();
-    
-    // STEP 2. Read the fronts from the files
-    double [][] solutionFront = qualityIndicator.utils_.readFront(args[0]);
+
+    Writer writer = new FileWriter("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/Merged Results/Setting 21/Inverted/inverted_nsga");
+    //Create a new instance of the metric
     double [][] trueFront     = qualityIndicator.utils_.readFront(args[1]);
+    //Read the front from the files
+    String directory = args[0];
+    File folder = new File(directory);
+    File[] listOfFiles = folder.listFiles();
+    for (int i = 0; i < listOfFiles.length; i++) {
+      String file = listOfFiles[i].getAbsolutePath();
+      double [][] solutionFront = qualityIndicator.utils_.readFront(file);
+      double value = qualityIndicator.invertedGenerationalDistance(solutionFront, trueFront, new Integer(args[2]));
+
+      System.out.println(value);
+      writer.write(String.valueOf(value));
+      writer.write("\n");
+
+    }
+    writer.close();
     
-    // STEP 3. Obtain the metric value
-    double value = qualityIndicator.invertedGenerationalDistance(
-    		                                 solutionFront,
-    		                                 trueFront,
-            new Integer(args[2]));
-    
-    System.out.println(value);  
+
+
   } // main  
   
 } // InvertedGenerationalDistance

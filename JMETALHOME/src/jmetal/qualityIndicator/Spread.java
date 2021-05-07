@@ -21,6 +21,10 @@
 
 package jmetal.qualityIndicator;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
 import java.util.Arrays;
 
 /**
@@ -134,7 +138,7 @@ public class Spread {
    * 2) the name of the file containig the true Pareto front
    * 3) the number of objectives
    */
-  public static void main(String args[]) {
+  public static void main(String args[]) throws IOException {
 	if (args.length < 2) {
       System.err.println("Spread::Main: Error using Spread. Usage: \n java " +
 			             "Spread <FrontFile> <TrueFrontFile>  " +
@@ -145,13 +149,23 @@ public class Spread {
 	// STEP 1. Create a new instance of the metric
 	Spread qualityIndicator = new Spread();
 
-	// STEP 2. Read the fronts from the files
-	double [][] solutionFront = utils_.readFront(args[0]);
-	double [][] trueFront     = utils_.readFront(args[1]);
+      Writer writer = new FileWriter("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/Merged Results/Setting 22/Spread/spread_spea");
+      //Create a new instance of the metric
+      double [][] trueFront     = qualityIndicator.utils_.readFront(args[1]);
+      //Read the front from the files
+      String directory = args[0];
+      File folder = new File(directory);
+      File[] listOfFiles = folder.listFiles();
+      for (int i = 0; i < listOfFiles.length; i++) {
+          String file = listOfFiles[i].getAbsolutePath();
+          double [][] solutionFront = qualityIndicator.utils_.readFront(file);
+          double value = qualityIndicator.spread(solutionFront, trueFront, new Integer(args[2]));
 
-	// STEP 3. Obtain the metric value
-	double value = qualityIndicator.spread(solutionFront,trueFront,2);
+          System.out.println(value);
+          writer.write(String.valueOf(value));
+          writer.write("\n");
 
-	System.out.println(value);  
+      }
+      writer.close();
   } // Main
 } // Spread

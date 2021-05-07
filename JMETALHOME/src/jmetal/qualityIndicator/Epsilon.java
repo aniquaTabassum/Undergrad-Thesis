@@ -21,6 +21,11 @@
 
 package jmetal.qualityIndicator ;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
 /**
  * This class implements the unary epsilon additive indicator as proposed in
  * E. Zitzler, E. Thiele, L. Laummanns, M., Fonseca, C., and Grunert da Fonseca.
@@ -130,7 +135,7 @@ public class Epsilon {
   * Returns the additive-epsilon value of the paretoFront. This method call to the
   * calculate epsilon-indicator one
   */
-  public static void main(String [] args) {
+  public static void main(String [] args) throws IOException {
     double ind_value;
  
     if (args.length < 2) {
@@ -139,18 +144,29 @@ public class Epsilon {
                          "<TrueFrontFile> + <getNumberOfObjectives>");
       System.exit(1);
     }
-   
+    Writer writer = new FileWriter("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/Merged Results/Setting 21/Epsilon/epsilon_nsga");
+    //Create a new instance of the metric
     Epsilon qualityIndicator = new Epsilon();
-    double [][] solutionFront = qualityIndicator.utils_.readFront(args[0]);
     double [][] trueFront     = qualityIndicator.utils_.readFront(args[1]);
-    //qualityIndicator.dim_ = trueParetoFront[0].length;
-    //qualityIndicator.set_params();
-            
-    ind_value = qualityIndicator.epsilon(trueFront,
-                                         solutionFront,
-            new Integer(args[2]));
-    
-    System.out.println(ind_value);
+    //Read the front from the files
+    String directory = args[0];
+    File folder = new File(directory);
+    File[] listOfFiles = folder.listFiles();
+    for (int i = 0; i < listOfFiles.length; i++) {
+      String file = listOfFiles[i].getAbsolutePath();
+      double [][] solutionFront = qualityIndicator.utils_.readFront(file);
+      double nd_value = qualityIndicator.epsilon(trueFront,
+              solutionFront,
+              new Integer(args[2]));
+
+
+      System.out.println(nd_value);
+      writer.write(String.valueOf(nd_value));
+      writer.write("\n");
+
+    }
+    writer.close();
+
   } // main
 } // Epsilon
 

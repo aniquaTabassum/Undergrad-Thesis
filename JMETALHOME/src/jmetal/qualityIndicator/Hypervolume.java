@@ -264,7 +264,7 @@ public class Hypervolume {
                          "<TrueFrontFile> " + "<getNumberOfObjectives>");
       System.exit(1);
     }
-    Writer writer = new FileWriter("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/Merged Results/Setting 19/Hypervolume/hv_setting19");
+    Writer writer = new FileWriter("/Users/aniquatabassum/Downloads/studies/Undergrad Thesis/SuverySetDivide/JMetal/Results/Merged Results/Setting 22/Hypervolume/hv_spea");
     //Create a new instance of the metric
     Hypervolume qualityIndicator = new Hypervolume();
     double [][] trueFront     = qualityIndicator.utils_.readFront(args[1]);

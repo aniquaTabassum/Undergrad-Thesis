@@ -15,7 +15,7 @@ from jmetal.algorithm.multiobjective import NSGAII
 from jmetal.core.problem import FloatProblem, IntegerProblem
 from jmetal.core.solution import FloatSolution, IntegerSolution
 from jmetal.operator import BinaryTournamentSelection, PolynomialMutation, SBXCrossover
-from JMetal.custom_algorithm.custom_nsga import NSGAII_custom
+from JMetal.custom_algorithm.custom_nsga import NSGAII_custom, SPEA2, GeneticAlgorithm
 from jmetal.operator.mutation import IntegerPolynomialMutation
 from JMetal.custom_operators.custom_mutation import Domain_Knowledge_mutation, Random_Integer_Mutation, SimpleRandomMutation
 from jmetal.operator.crossover import IntegerSBXCrossover
@@ -257,7 +257,7 @@ class Areas():
 
 class Optimize_Allocation():
     def __init__(self, num_of_trial, mutation_probability, crossover, mutation, number_of_city, demand_list,
-                 number_of_variables, max_evaluation, crossover_probability):
+                 number_of_variables, max_evaluation, crossover_probability, algorithm):
         self.num_of_trial = num_of_trial
         self.mutation_probability = mutation_probability
         self.number_of_city = number_of_city
@@ -274,6 +274,7 @@ class Optimize_Allocation():
         self.doctors = self.problem.get_doctors()
         self.areas = self.problem.get_areas()
         self.dream_allocation = self.problem.get_dream_allocation()
+        self.which_algo = algorithm
 
         if crossover == 'single_point':
             self.crossover = IntegerSinglePointCrossover(probability=crossover_probability)
@@ -296,16 +297,26 @@ class Optimize_Allocation():
             self.mutation = SimpleRandomMutation(probability=mutation_probability)
 
     def allocate(self):
-
-        algorithm = NSGAII_custom(
-            problem=self.problem,
-            population_size=100,
-            offspring_population_size=100,
-            mutation=self.mutation,
-            crossover=self.crossover,
-            termination_criterion=StoppingByEvaluations(max_evaluations=self.max_evaluations),
-            dominance_comparator=DominanceComparator()
-        )
+        if self.which_algo == 'NSGA':
+            algorithm = NSGAII_custom(
+                problem=self.problem,
+                population_size=100,
+                offspring_population_size=100,
+                mutation=self.mutation,
+                crossover=self.crossover,
+                termination_criterion=StoppingByEvaluations(max_evaluations=self.max_evaluations),
+                dominance_comparator=DominanceComparator()
+            )
+        else:
+            algorithm = SPEA2(
+                problem=self.problem,
+                population_size=100,
+                offspring_population_size=100,
+                mutation=self.mutation,
+                crossover=self.crossover,
+                termination_criterion=StoppingByEvaluations(max_evaluations=self.max_evaluations),
+                dominance_comparator=DominanceComparator()
+            )
 
         algorithm.run()
         # result = get_non_dominated_solutions(algorithm.get_result())
@@ -327,14 +338,14 @@ class Optimize_Allocation():
 
 
 def perform_optimize_allocation(num_of_trial, mutation_probability, crossover, number_of_variables, demand_list,
-                                number_of_city, mutation, max_evaluation, crossover_probability):
+                                number_of_city, mutation, max_evaluation, crossover_probability, which_algo):
     optimize_allocation = Optimize_Allocation(num_of_trial=num_of_trial, mutation_probability=mutation_probability,
                                               crossover=crossover,
                                               number_of_variables=number_of_variables, demand_list=demand_list,
                                               number_of_city=number_of_city, mutation=mutation,
                                               max_evaluation=max_evaluation,
-                                              crossover_probability=crossover_probability
-                                              )
+                                              crossover_probability=crossover_probability,
+                                              algorithm=which_algo)
     optimize_allocation.allocate()
 
 
@@ -347,6 +358,7 @@ if __name__ == "__main__":
                         choices=["random", "domain", "polynomial", "simple"])
     parser.add_argument('--num_process', help="Number of parallel processes.", required=False, type=int, default=8)
     parser.add_argument('--mutation_probability', help="Mutation probability.", required=True, type=float)
+    parser.add_argument('--algorithm', help='Which GA', required=True, type=str, choices=['NSGA', 'SPEA'])
 
     args = parser.parse_args()
     iter_start = args.iter_start
@@ -354,20 +366,20 @@ if __name__ == "__main__":
     mutation_type = args.mutation_type
     num_process = args.num_process
     mutation_probability = args.mutation_probability
-
+    algorithm = args.algorithm
     all_params = []
 
     for i in range(50):
         params = (
-        (i + iter_start), mutation_probability, crossover_type, 20, [3, 5, 4, 5, 2, 2, 4], 7, mutation_type, 300000,
-        0.9)
+        (i + iter_start), mutation_probability, crossover_type, 36, [6, 10, 8, 10, 3, 4, 8], 7, mutation_type, 300000,
+        0.9, algorithm)
         all_params.append(params)
 
-    for params in all_params:
-      perform_optimize_allocation(*params)
+    # for params in all_params:
+    #   perform_optimize_allocation(*params)
 
-    # with multiprocessing.Pool(processes=num_process) as pool:
-    #     pool.starmap(perform_optimize_allocation, all_params)
+    with multiprocessing.Pool(processes=num_process) as pool:
+        pool.starmap(perform_optimize_allocation, all_params)
 
     # for i in range(50):
     #     # params = {"num_of_trial": (i+iter_start), "mutation_probability": 0.3, "crossover": "multi_point",
